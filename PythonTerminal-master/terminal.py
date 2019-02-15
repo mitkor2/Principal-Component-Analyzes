@@ -79,7 +79,7 @@ def OpenCommand():
 def ClearDataCommand():
     textbox.delete('1.0',END)
 
-def SendDataCommand():
+#def SendDataCommand():
     message = senddata_edit.get()
     if serialPort.IsOpen():
         message += '\r\n'
@@ -126,7 +126,7 @@ def OpenLogFile():
             logFile = None
 
 
-def DisplayAbout():
+#def DisplayAbout():
     tk.messagebox.showinfo(
     "About",
     "Written by Dale Gambill (same as 'Software Guy For You' on Youtube)\r\n\r\n" 
@@ -136,10 +136,6 @@ def DisplayAbout():
     "3 - sending log file messages and receiving messages at the same time\r\n\r\n" 
     "Source code at: Github URL: https://github.com/dalegambill/PythonTerminal\r\n")
 
-def TutorialsWebPage():
-    webbrowser.open("https://www.youtube.com/channel/UCouhHzMMU9c-Qh-TkZl5GDg",
-                    new=1, autoraise=True)
-
 # COM Port open/close button
 button_openclose = Button(root,text="Open COM Port",width=20,command=OpenCommand)
 button_openclose.config(font="bold")
@@ -148,37 +144,37 @@ button_openclose.place(x=210,y=30)
 #Clear Rx Data button
 button_cleardata = Button(root,text="Clear Rx Data",width=20,command=ClearDataCommand)
 button_cleardata.config(font="bold")
-button_cleardata.place(x=210,y=72)
+button_cleardata.place(x=420,y=30)
 
 #Send Message button
-button_senddata = Button(root,text="Send Message",width=20,command=SendDataCommand)
-button_senddata.config(font="bold")
-button_senddata.place(x=420,y=72)
+#button_senddata = Button(root,text="Send Message",width=20,command=SendDataCommand)
+#button_senddata.config(font="bold")
+#button_senddata.place(x=420,y=72)
 
 #Replay Log button
 button_replaylog = Button(root,text="Replay Log",width=20,command=OpenLogFile)
 button_replaylog.config(font="bold")
-button_replaylog.place(x=420,y=30)
+button_replaylog.place(x=620,y=30)
 
 #About button
-button_about = Button(root,text="About",width=16,command=DisplayAbout)
-button_about.config(font="bold")
-button_about.place(x=620,y=30)
+#button_about = Button(root,text="About",width=16,command=DisplayAbout)
+#button_about.config(font="bold")
+#button_about.place(x=620,y=30)
 
 #Tutorials
-button_tutorials = Button(root,text="Tutorials",width=16,command=TutorialsWebPage)
-button_tutorials.config(font="bold")
-button_tutorials.place(x=780,y=30)
+#button_tutorials = Button(root,text="Tutorials",width=16,command=TutorialsWebPage)
+#button_tutorials.config(font="bold")
+#button_tutorials.place(x=780,y=30)
 
-#
+
 # data entry labels and entry boxes
-#
+
 
 #Send Data entry box
-senddata_edit = Entry(root,width=34)
-senddata_edit.place(x=620,y=78)
-senddata_edit.config(font="bold")
-senddata_edit.insert(END,"Message")
+#senddata_edit = Entry(root,width=34)
+#senddata_edit.place(x=620,y=78)
+#senddata_edit.config(font="bold")
+#senddata_edit.insert(END,"Message")
 
 #Baud Rate label
 label_baud = Label(root,width=10,height=2,text="Baud Rate:")
