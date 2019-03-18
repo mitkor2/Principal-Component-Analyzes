@@ -31,8 +31,8 @@ root.geometry('%dx%d+%d+%d' % (window_width, window_height, window_position_x, w
 # scrolled text box used to display the serial data
 frame = tk.Frame(root, bg='cyan')
 frame.pack(side="bottom", fill='both', expand='no')
-textbox = tkscrolledtext.ScrolledText(master=frame, wrap='word', width=180, height=28) #width=characters, height=lines
-textbox.pack(side='bottom', fill='y', expand=True, padx=0, pady=0)
+textbox = tkscrolledtext.ScrolledText(master=frame, wrap='word', width=180, height=15) #width=characters, height=lines
+textbox.pack(side='bottom', fill='y', expand=True, padx=80, pady=40)
 textbox.config(font="bold")
 
 #COM Port label
