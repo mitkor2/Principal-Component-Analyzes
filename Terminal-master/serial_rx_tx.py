@@ -1,9 +1,3 @@
-#
-# Serial COM Port receive message event handler
-# 8/17/2017, Dale Gambill
-# When a line of text arrives from the COM port terminated by a \n character, this module will pass the message to
-# the function specified by the instantiator of this class.
-#
 import serial
 import sys
 import _thread
