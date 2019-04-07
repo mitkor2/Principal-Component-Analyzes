@@ -1,0 +1,13 @@
+\\Mac\Home\Documents\Dokumenty\Work\Firefighting drone\FFD_GUI\FFD_GUI\bin\Debug\FFD_GUI.exe.config
+\\Mac\Home\Documents\Dokumenty\Work\Firefighting drone\FFD_GUI\FFD_GUI\bin\Debug\FFD_GUI.exe
+\\Mac\Home\Documents\Dokumenty\Work\Firefighting drone\FFD_GUI\FFD_GUI\bin\Debug\FFD_GUI.pdb
+\\Mac\Home\Documents\Dokumenty\Work\Firefighting drone\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.csprojAssemblyReference.cache
+\\Mac\Home\Documents\Dokumenty\Work\Firefighting drone\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.Properties.Resources.resources
+\\Mac\Home\Documents\Dokumenty\Work\Firefighting drone\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.csproj.GenerateResource.cache
+\\Mac\Home\Documents\Dokumenty\Work\Firefighting drone\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\Dokumenty\Work\Firefighting drone\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.exe
+\\Mac\Home\Documents\Dokumenty\Work\Firefighting drone\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.pdb
+\\Mac\Home\Documents\Dokumenty\Work\Firefighting drone\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.About.resources
+\\Mac\Home\Documents\Dokumenty\Work\Firefighting drone\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.Main.resources
+\\Mac\Home\Documents\Dokumenty\Work\Firefighting drone\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.Connection.resources
+\\Mac\Home\Documents\Dokumenty\Work\Firefighting drone\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.Options.resources
