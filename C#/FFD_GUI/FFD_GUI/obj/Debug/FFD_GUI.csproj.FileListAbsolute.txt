@@ -11,3 +11,16 @@
 \\Mac\Home\Documents\Dokumenty\Work\Firefighting drone\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.Main.resources
 \\Mac\Home\Documents\Dokumenty\Work\Firefighting drone\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.Connection.resources
 \\Mac\Home\Documents\Dokumenty\Work\Firefighting drone\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.Options.resources
+E:\Work\Principal-Component-Analyzes\C#\FFD_GUI\FFD_GUI\bin\Debug\FFD_GUI.exe.config
+E:\Work\Principal-Component-Analyzes\C#\FFD_GUI\FFD_GUI\bin\Debug\FFD_GUI.exe
+E:\Work\Principal-Component-Analyzes\C#\FFD_GUI\FFD_GUI\bin\Debug\FFD_GUI.pdb
+E:\Work\Principal-Component-Analyzes\C#\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.csprojAssemblyReference.cache
+E:\Work\Principal-Component-Analyzes\C#\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.About.resources
+E:\Work\Principal-Component-Analyzes\C#\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.Connection.resources
+E:\Work\Principal-Component-Analyzes\C#\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.Options.resources
+E:\Work\Principal-Component-Analyzes\C#\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.Main.resources
+E:\Work\Principal-Component-Analyzes\C#\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.Properties.Resources.resources
+E:\Work\Principal-Component-Analyzes\C#\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.csproj.GenerateResource.cache
+E:\Work\Principal-Component-Analyzes\C#\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.csproj.CoreCompileInputs.cache
+E:\Work\Principal-Component-Analyzes\C#\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.exe
+E:\Work\Principal-Component-Analyzes\C#\FFD_GUI\FFD_GUI\obj\Debug\FFD_GUI.pdb
