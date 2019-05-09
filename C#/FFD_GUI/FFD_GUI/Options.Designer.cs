@@ -31,150 +31,149 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Options));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.sensor1_yaxis = new System.Windows.Forms.RichTextBox();
             this.apply_sensor1 = new System.Windows.Forms.Button();
+            this.sensor1_xaxis = new System.Windows.Forms.RichTextBox();
+            this.danger1_sensor1 = new System.Windows.Forms.RichTextBox();
+            this.danger2_sensor1 = new System.Windows.Forms.RichTextBox();
+            this.danger3_sensor1 = new System.Windows.Forms.RichTextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.nudY1 = new System.Windows.Forms.NumericUpDown();
-            this.nudX1 = new System.Windows.Forms.NumericUpDown();
-            this.dng11 = new System.Windows.Forms.NumericUpDown();
-            this.dng12 = new System.Windows.Forms.NumericUpDown();
-            this.dng13 = new System.Windows.Forms.NumericUpDown();
-            this.btnAxisFit = new System.Windows.Forms.Button();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.dng43 = new System.Windows.Forms.NumericUpDown();
-            this.dng42 = new System.Windows.Forms.NumericUpDown();
-            this.dng41 = new System.Windows.Forms.NumericUpDown();
-            this.nudX4 = new System.Windows.Forms.NumericUpDown();
-            this.nudY4 = new System.Windows.Forms.NumericUpDown();
+            this.sensor2_yaxis = new System.Windows.Forms.RichTextBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.richTextBox7 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox8 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox9 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox10 = new System.Windows.Forms.RichTextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.apply_sensor4 = new System.Windows.Forms.Button();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.apply_sensor7 = new System.Windows.Forms.Button();
+            this.richTextBox11 = new System.Windows.Forms.RichTextBox();
+            this.button3 = new System.Windows.Forms.Button();
+            this.richTextBox12 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox13 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox14 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox15 = new System.Windows.Forms.RichTextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.nudY7 = new System.Windows.Forms.NumericUpDown();
-            this.nudX7 = new System.Windows.Forms.NumericUpDown();
-            this.dng71 = new System.Windows.Forms.NumericUpDown();
-            this.dng72 = new System.Windows.Forms.NumericUpDown();
-            this.dng73 = new System.Windows.Forms.NumericUpDown();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
+            this.richTextBox16 = new System.Windows.Forms.RichTextBox();
+            this.button4 = new System.Windows.Forms.Button();
+            this.richTextBox17 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox18 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox19 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox20 = new System.Windows.Forms.RichTextBox();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
-            this.apply_sensor10 = new System.Windows.Forms.Button();
-            this.nudY10 = new System.Windows.Forms.NumericUpDown();
-            this.nudX10 = new System.Windows.Forms.NumericUpDown();
-            this.dng101 = new System.Windows.Forms.NumericUpDown();
-            this.dng102 = new System.Windows.Forms.NumericUpDown();
-            this.dng103 = new System.Windows.Forms.NumericUpDown();
-            this.table = new System.Windows.Forms.TableLayoutPanel();
-            this.apply_sensor11 = new System.Windows.Forms.Button();
+            this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
+            this.richTextBox21 = new System.Windows.Forms.RichTextBox();
+            this.button5 = new System.Windows.Forms.Button();
+            this.richTextBox22 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox23 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox24 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox25 = new System.Windows.Forms.RichTextBox();
             this.label21 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
-            this.nudY11 = new System.Windows.Forms.NumericUpDown();
-            this.nudX11 = new System.Windows.Forms.NumericUpDown();
-            this.dng111 = new System.Windows.Forms.NumericUpDown();
-            this.dng112 = new System.Windows.Forms.NumericUpDown();
-            this.dng113 = new System.Windows.Forms.NumericUpDown();
             this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
-            this.apply_sensor8 = new System.Windows.Forms.Button();
+            this.richTextBox26 = new System.Windows.Forms.RichTextBox();
+            this.button6 = new System.Windows.Forms.Button();
+            this.richTextBox27 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox28 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox29 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox30 = new System.Windows.Forms.RichTextBox();
             this.label26 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
-            this.nudY8 = new System.Windows.Forms.NumericUpDown();
-            this.nudX8 = new System.Windows.Forms.NumericUpDown();
-            this.dng81 = new System.Windows.Forms.NumericUpDown();
-            this.dng82 = new System.Windows.Forms.NumericUpDown();
-            this.dng83 = new System.Windows.Forms.NumericUpDown();
             this.tableLayoutPanel7 = new System.Windows.Forms.TableLayoutPanel();
-            this.apply_sensor5 = new System.Windows.Forms.Button();
+            this.richTextBox31 = new System.Windows.Forms.RichTextBox();
+            this.button7 = new System.Windows.Forms.Button();
+            this.richTextBox32 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox33 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox34 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox35 = new System.Windows.Forms.RichTextBox();
             this.label31 = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
             this.label35 = new System.Windows.Forms.Label();
-            this.nudY5 = new System.Windows.Forms.NumericUpDown();
-            this.nudX5 = new System.Windows.Forms.NumericUpDown();
-            this.dng51 = new System.Windows.Forms.NumericUpDown();
-            this.dng52 = new System.Windows.Forms.NumericUpDown();
-            this.dng53 = new System.Windows.Forms.NumericUpDown();
             this.tableLayoutPanel8 = new System.Windows.Forms.TableLayoutPanel();
-            this.apply_sensor2 = new System.Windows.Forms.Button();
+            this.richTextBox36 = new System.Windows.Forms.RichTextBox();
+            this.button8 = new System.Windows.Forms.Button();
+            this.richTextBox37 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox38 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox39 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox40 = new System.Windows.Forms.RichTextBox();
             this.label36 = new System.Windows.Forms.Label();
             this.label37 = new System.Windows.Forms.Label();
             this.label38 = new System.Windows.Forms.Label();
             this.label39 = new System.Windows.Forms.Label();
             this.label40 = new System.Windows.Forms.Label();
-            this.nudY2 = new System.Windows.Forms.NumericUpDown();
-            this.nudX2 = new System.Windows.Forms.NumericUpDown();
-            this.dng21 = new System.Windows.Forms.NumericUpDown();
-            this.dng22 = new System.Windows.Forms.NumericUpDown();
-            this.dng23 = new System.Windows.Forms.NumericUpDown();
             this.tableLayoutPanel9 = new System.Windows.Forms.TableLayoutPanel();
-            this.apply_sensor13 = new System.Windows.Forms.Button();
+            this.richTextBox41 = new System.Windows.Forms.RichTextBox();
+            this.button9 = new System.Windows.Forms.Button();
+            this.richTextBox42 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox43 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox44 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox45 = new System.Windows.Forms.RichTextBox();
             this.label41 = new System.Windows.Forms.Label();
             this.label42 = new System.Windows.Forms.Label();
             this.label43 = new System.Windows.Forms.Label();
             this.label44 = new System.Windows.Forms.Label();
             this.label45 = new System.Windows.Forms.Label();
-            this.nudY13 = new System.Windows.Forms.NumericUpDown();
-            this.nudX13 = new System.Windows.Forms.NumericUpDown();
-            this.dng131 = new System.Windows.Forms.NumericUpDown();
-            this.dng132 = new System.Windows.Forms.NumericUpDown();
-            this.dng133 = new System.Windows.Forms.NumericUpDown();
             this.tableLayoutPanel10 = new System.Windows.Forms.TableLayoutPanel();
-            this.apply_sensor9 = new System.Windows.Forms.Button();
+            this.richTextBox46 = new System.Windows.Forms.RichTextBox();
+            this.button10 = new System.Windows.Forms.Button();
+            this.richTextBox47 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox48 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox49 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox50 = new System.Windows.Forms.RichTextBox();
             this.label46 = new System.Windows.Forms.Label();
             this.label47 = new System.Windows.Forms.Label();
             this.label48 = new System.Windows.Forms.Label();
             this.label49 = new System.Windows.Forms.Label();
             this.label50 = new System.Windows.Forms.Label();
-            this.nudY9 = new System.Windows.Forms.NumericUpDown();
-            this.nudX9 = new System.Windows.Forms.NumericUpDown();
-            this.dng91 = new System.Windows.Forms.NumericUpDown();
-            this.dng92 = new System.Windows.Forms.NumericUpDown();
-            this.dng93 = new System.Windows.Forms.NumericUpDown();
             this.tableLayoutPanel11 = new System.Windows.Forms.TableLayoutPanel();
-            this.apply_sensor6 = new System.Windows.Forms.Button();
+            this.richTextBox51 = new System.Windows.Forms.RichTextBox();
+            this.button11 = new System.Windows.Forms.Button();
+            this.richTextBox52 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox53 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox54 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox55 = new System.Windows.Forms.RichTextBox();
             this.label51 = new System.Windows.Forms.Label();
             this.label52 = new System.Windows.Forms.Label();
             this.label53 = new System.Windows.Forms.Label();
             this.label54 = new System.Windows.Forms.Label();
             this.label55 = new System.Windows.Forms.Label();
-            this.nudY6 = new System.Windows.Forms.NumericUpDown();
-            this.nudX6 = new System.Windows.Forms.NumericUpDown();
-            this.dng61 = new System.Windows.Forms.NumericUpDown();
-            this.dng62 = new System.Windows.Forms.NumericUpDown();
-            this.dng63 = new System.Windows.Forms.NumericUpDown();
             this.tableLayoutPanel12 = new System.Windows.Forms.TableLayoutPanel();
-            this.apply_sensor3 = new System.Windows.Forms.Button();
+            this.richTextBox56 = new System.Windows.Forms.RichTextBox();
+            this.button12 = new System.Windows.Forms.Button();
+            this.richTextBox57 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox58 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox59 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox60 = new System.Windows.Forms.RichTextBox();
             this.label56 = new System.Windows.Forms.Label();
             this.label57 = new System.Windows.Forms.Label();
             this.label58 = new System.Windows.Forms.Label();
             this.label59 = new System.Windows.Forms.Label();
             this.label60 = new System.Windows.Forms.Label();
-            this.nudY3 = new System.Windows.Forms.NumericUpDown();
-            this.nudX3 = new System.Windows.Forms.NumericUpDown();
-            this.dng31 = new System.Windows.Forms.NumericUpDown();
-            this.dng32 = new System.Windows.Forms.NumericUpDown();
-            this.dng33 = new System.Windows.Forms.NumericUpDown();
             this.label61 = new System.Windows.Forms.Label();
             this.label62 = new System.Windows.Forms.Label();
             this.label63 = new System.Windows.Forms.Label();
@@ -189,96 +188,31 @@
             this.label72 = new System.Windows.Forms.Label();
             this.label73 = new System.Windows.Forms.Label();
             this.tableLayoutPanel13 = new System.Windows.Forms.TableLayoutPanel();
-            this.apply_sensor12 = new System.Windows.Forms.Button();
+            this.richTextBox61 = new System.Windows.Forms.RichTextBox();
+            this.button13 = new System.Windows.Forms.Button();
+            this.richTextBox62 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox63 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox64 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox65 = new System.Windows.Forms.RichTextBox();
             this.label74 = new System.Windows.Forms.Label();
             this.label75 = new System.Windows.Forms.Label();
             this.label76 = new System.Windows.Forms.Label();
             this.label77 = new System.Windows.Forms.Label();
             this.label78 = new System.Windows.Forms.Label();
-            this.nudY12 = new System.Windows.Forms.NumericUpDown();
-            this.nudX12 = new System.Windows.Forms.NumericUpDown();
-            this.dng121 = new System.Windows.Forms.NumericUpDown();
-            this.dng122 = new System.Windows.Forms.NumericUpDown();
-            this.dng123 = new System.Windows.Forms.NumericUpDown();
             this.alert_messege = new System.Windows.Forms.NotifyIcon(this.components);
             this.tableLayoutPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nudY1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nudX1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng13)).BeginInit();
             this.tableLayoutPanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dng43)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng42)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng41)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nudX4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nudY4)).BeginInit();
             this.tableLayoutPanel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nudY7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nudX7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng71)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng72)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng73)).BeginInit();
             this.tableLayoutPanel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nudY10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nudX10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng101)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng102)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng103)).BeginInit();
-            this.table.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nudY11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nudX11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng111)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng112)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng113)).BeginInit();
+            this.tableLayoutPanel5.SuspendLayout();
             this.tableLayoutPanel6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nudY8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nudX8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng81)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng82)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng83)).BeginInit();
             this.tableLayoutPanel7.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nudY5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nudX5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng51)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng52)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng53)).BeginInit();
             this.tableLayoutPanel8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nudY2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nudX2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng21)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng22)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng23)).BeginInit();
             this.tableLayoutPanel9.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nudY13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nudX13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng131)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng132)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng133)).BeginInit();
             this.tableLayoutPanel10.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nudY9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nudX9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng91)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng92)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng93)).BeginInit();
             this.tableLayoutPanel11.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nudY6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nudX6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng61)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng62)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng63)).BeginInit();
             this.tableLayoutPanel12.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nudY3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nudX3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng31)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng32)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng33)).BeginInit();
             this.tableLayoutPanel13.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nudY12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nudX12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng121)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng122)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng123)).BeginInit();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -286,18 +220,17 @@
             this.tableLayoutPanel1.ColumnCount = 2;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.Controls.Add(this.sensor1_yaxis, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.apply_sensor1, 1, 5);
+            this.tableLayoutPanel1.Controls.Add(this.sensor1_xaxis, 1, 1);
+            this.tableLayoutPanel1.Controls.Add(this.danger1_sensor1, 1, 2);
+            this.tableLayoutPanel1.Controls.Add(this.danger2_sensor1, 1, 3);
+            this.tableLayoutPanel1.Controls.Add(this.danger3_sensor1, 1, 4);
             this.tableLayoutPanel1.Controls.Add(this.label1, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.label2, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.label3, 0, 2);
             this.tableLayoutPanel1.Controls.Add(this.label4, 0, 3);
             this.tableLayoutPanel1.Controls.Add(this.label5, 0, 4);
-            this.tableLayoutPanel1.Controls.Add(this.nudY1, 1, 0);
-            this.tableLayoutPanel1.Controls.Add(this.nudX1, 1, 1);
-            this.tableLayoutPanel1.Controls.Add(this.dng11, 1, 2);
-            this.tableLayoutPanel1.Controls.Add(this.dng12, 1, 3);
-            this.tableLayoutPanel1.Controls.Add(this.dng13, 1, 4);
-            this.tableLayoutPanel1.Controls.Add(this.btnAxisFit, 0, 5);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(27, 39);
             this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -308,11 +241,19 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(240, 204);
             this.tableLayoutPanel1.TabIndex = 0;
             this.tableLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.TableLayoutPanel1_Paint);
+            // 
+            // sensor1_yaxis
+            // 
+            this.sensor1_yaxis.Location = new System.Drawing.Point(123, 2);
+            this.sensor1_yaxis.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.sensor1_yaxis.Name = "sensor1_yaxis";
+            this.sensor1_yaxis.Size = new System.Drawing.Size(113, 27);
+            this.sensor1_yaxis.TabIndex = 1;
+            this.sensor1_yaxis.Text = "";
+            this.sensor1_yaxis.TextChanged += new System.EventHandler(this.Sensor1_yaxis_TextChanged);
             // 
             // apply_sensor1
             // 
@@ -324,6 +265,42 @@
             this.apply_sensor1.Text = "Apply";
             this.apply_sensor1.UseVisualStyleBackColor = true;
             this.apply_sensor1.Click += new System.EventHandler(this.Apply_sensor1_Click);
+            // 
+            // sensor1_xaxis
+            // 
+            this.sensor1_xaxis.Location = new System.Drawing.Point(123, 35);
+            this.sensor1_xaxis.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.sensor1_xaxis.Name = "sensor1_xaxis";
+            this.sensor1_xaxis.Size = new System.Drawing.Size(113, 27);
+            this.sensor1_xaxis.TabIndex = 2;
+            this.sensor1_xaxis.Text = "";
+            // 
+            // danger1_sensor1
+            // 
+            this.danger1_sensor1.Location = new System.Drawing.Point(123, 68);
+            this.danger1_sensor1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.danger1_sensor1.Name = "danger1_sensor1";
+            this.danger1_sensor1.Size = new System.Drawing.Size(113, 27);
+            this.danger1_sensor1.TabIndex = 3;
+            this.danger1_sensor1.Text = "";
+            // 
+            // danger2_sensor1
+            // 
+            this.danger2_sensor1.Location = new System.Drawing.Point(123, 101);
+            this.danger2_sensor1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.danger2_sensor1.Name = "danger2_sensor1";
+            this.danger2_sensor1.Size = new System.Drawing.Size(113, 27);
+            this.danger2_sensor1.TabIndex = 4;
+            this.danger2_sensor1.Text = "";
+            // 
+            // danger3_sensor1
+            // 
+            this.danger3_sensor1.Location = new System.Drawing.Point(123, 134);
+            this.danger3_sensor1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.danger3_sensor1.Name = "danger3_sensor1";
+            this.danger3_sensor1.Size = new System.Drawing.Size(113, 27);
+            this.danger3_sensor1.TabIndex = 5;
+            this.danger3_sensor1.Text = "";
             // 
             // label1
             // 
@@ -377,148 +354,23 @@
             this.label5.TabIndex = 10;
             this.label5.Text = "Danger 3";
             // 
-            // nudY1
-            // 
-            this.nudY1.DecimalPlaces = 2;
-            this.nudY1.Location = new System.Drawing.Point(123, 3);
-            this.nudY1.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.nudY1.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.nudY1.Name = "nudY1";
-            this.nudY1.Size = new System.Drawing.Size(113, 22);
-            this.nudY1.TabIndex = 11;
-            this.nudY1.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            // 
-            // nudX1
-            // 
-            this.nudX1.DecimalPlaces = 2;
-            this.nudX1.Location = new System.Drawing.Point(123, 36);
-            this.nudX1.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.nudX1.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.nudX1.Name = "nudX1";
-            this.nudX1.Size = new System.Drawing.Size(113, 22);
-            this.nudX1.TabIndex = 12;
-            this.nudX1.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            // 
-            // dng11
-            // 
-            this.dng11.DecimalPlaces = 2;
-            this.dng11.Location = new System.Drawing.Point(123, 69);
-            this.dng11.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.dng11.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.dng11.Name = "dng11";
-            this.dng11.Size = new System.Drawing.Size(113, 22);
-            this.dng11.TabIndex = 13;
-            this.dng11.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            // 
-            // dng12
-            // 
-            this.dng12.DecimalPlaces = 2;
-            this.dng12.Location = new System.Drawing.Point(123, 102);
-            this.dng12.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.dng12.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.dng12.Name = "dng12";
-            this.dng12.Size = new System.Drawing.Size(113, 22);
-            this.dng12.TabIndex = 14;
-            this.dng12.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            // 
-            // dng13
-            // 
-            this.dng13.DecimalPlaces = 2;
-            this.dng13.Location = new System.Drawing.Point(123, 135);
-            this.dng13.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.dng13.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.dng13.Name = "dng13";
-            this.dng13.Size = new System.Drawing.Size(113, 22);
-            this.dng13.TabIndex = 15;
-            this.dng13.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            // 
-            // btnAxisFit
-            // 
-            this.btnAxisFit.Location = new System.Drawing.Point(3, 168);
-            this.btnAxisFit.Name = "btnAxisFit";
-            this.btnAxisFit.Size = new System.Drawing.Size(114, 31);
-            this.btnAxisFit.TabIndex = 16;
-            this.btnAxisFit.Text = "Auto axis";
-            this.btnAxisFit.UseVisualStyleBackColor = true;
-            this.btnAxisFit.Click += new System.EventHandler(this.BtnAxisFit_Click);
-            // 
             // tableLayoutPanel2
             // 
             this.tableLayoutPanel2.ColumnCount = 2;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.Controls.Add(this.dng43, 1, 4);
-            this.tableLayoutPanel2.Controls.Add(this.dng42, 1, 3);
-            this.tableLayoutPanel2.Controls.Add(this.dng41, 1, 2);
-            this.tableLayoutPanel2.Controls.Add(this.nudX4, 1, 1);
-            this.tableLayoutPanel2.Controls.Add(this.nudY4, 1, 0);
+            this.tableLayoutPanel2.Controls.Add(this.sensor2_yaxis, 1, 0);
+            this.tableLayoutPanel2.Controls.Add(this.button2, 1, 5);
+            this.tableLayoutPanel2.Controls.Add(this.richTextBox7, 1, 1);
+            this.tableLayoutPanel2.Controls.Add(this.richTextBox8, 1, 2);
+            this.tableLayoutPanel2.Controls.Add(this.richTextBox9, 1, 3);
+            this.tableLayoutPanel2.Controls.Add(this.richTextBox10, 1, 4);
             this.tableLayoutPanel2.Controls.Add(this.label6, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.label7, 0, 1);
             this.tableLayoutPanel2.Controls.Add(this.label8, 0, 2);
             this.tableLayoutPanel2.Controls.Add(this.label9, 0, 3);
             this.tableLayoutPanel2.Controls.Add(this.label10, 0, 4);
-            this.tableLayoutPanel2.Controls.Add(this.apply_sensor4, 1, 5);
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(346, 33);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(307, 37);
             this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 6;
@@ -531,121 +383,60 @@
             this.tableLayoutPanel2.Size = new System.Drawing.Size(240, 204);
             this.tableLayoutPanel2.TabIndex = 1;
             // 
-            // dng43
+            // sensor2_yaxis
             // 
-            this.dng43.DecimalPlaces = 2;
-            this.dng43.Location = new System.Drawing.Point(123, 135);
-            this.dng43.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.dng43.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.dng43.Name = "dng43";
-            this.dng43.Size = new System.Drawing.Size(113, 22);
-            this.dng43.TabIndex = 16;
-            this.dng43.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
+            this.sensor2_yaxis.Location = new System.Drawing.Point(123, 2);
+            this.sensor2_yaxis.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.sensor2_yaxis.Name = "sensor2_yaxis";
+            this.sensor2_yaxis.Size = new System.Drawing.Size(113, 27);
+            this.sensor2_yaxis.TabIndex = 1;
+            this.sensor2_yaxis.Text = "";
             // 
-            // dng42
+            // button2
             // 
-            this.dng42.DecimalPlaces = 2;
-            this.dng42.Location = new System.Drawing.Point(123, 102);
-            this.dng42.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.dng42.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.dng42.Name = "dng42";
-            this.dng42.Size = new System.Drawing.Size(113, 22);
-            this.dng42.TabIndex = 15;
-            this.dng42.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
+            this.button2.Location = new System.Drawing.Point(123, 167);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(114, 31);
+            this.button2.TabIndex = 0;
+            this.button2.Text = "Apply";
+            this.button2.UseVisualStyleBackColor = true;
             // 
-            // dng41
+            // richTextBox7
             // 
-            this.dng41.DecimalPlaces = 2;
-            this.dng41.Location = new System.Drawing.Point(123, 69);
-            this.dng41.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.dng41.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.dng41.Name = "dng41";
-            this.dng41.Size = new System.Drawing.Size(113, 22);
-            this.dng41.TabIndex = 14;
-            this.dng41.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            this.dng41.ValueChanged += new System.EventHandler(this.NumericUpDown7_ValueChanged);
+            this.richTextBox7.Location = new System.Drawing.Point(123, 35);
+            this.richTextBox7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox7.Name = "richTextBox7";
+            this.richTextBox7.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox7.TabIndex = 2;
+            this.richTextBox7.Text = "";
             // 
-            // nudX4
+            // richTextBox8
             // 
-            this.nudX4.DecimalPlaces = 2;
-            this.nudX4.Location = new System.Drawing.Point(123, 36);
-            this.nudX4.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.nudX4.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.nudX4.Name = "nudX4";
-            this.nudX4.Size = new System.Drawing.Size(113, 22);
-            this.nudX4.TabIndex = 13;
-            this.nudX4.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
+            this.richTextBox8.Location = new System.Drawing.Point(123, 68);
+            this.richTextBox8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox8.Name = "richTextBox8";
+            this.richTextBox8.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox8.TabIndex = 3;
+            this.richTextBox8.Text = "";
             // 
-            // nudY4
+            // richTextBox9
             // 
-            this.nudY4.DecimalPlaces = 2;
-            this.nudY4.Location = new System.Drawing.Point(123, 3);
-            this.nudY4.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.nudY4.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.nudY4.Name = "nudY4";
-            this.nudY4.Size = new System.Drawing.Size(113, 22);
-            this.nudY4.TabIndex = 12;
-            this.nudY4.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
+            this.richTextBox9.Location = new System.Drawing.Point(123, 101);
+            this.richTextBox9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox9.Name = "richTextBox9";
+            this.richTextBox9.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox9.TabIndex = 4;
+            this.richTextBox9.Text = "";
+            // 
+            // richTextBox10
+            // 
+            this.richTextBox10.Location = new System.Drawing.Point(123, 134);
+            this.richTextBox10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox10.Name = "richTextBox10";
+            this.richTextBox10.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox10.TabIndex = 5;
+            this.richTextBox10.Text = "";
             // 
             // label6
             // 
@@ -698,34 +489,23 @@
             this.label10.TabIndex = 10;
             this.label10.Text = "Danger 3";
             // 
-            // apply_sensor4
-            // 
-            this.apply_sensor4.Location = new System.Drawing.Point(123, 167);
-            this.apply_sensor4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.apply_sensor4.Name = "apply_sensor4";
-            this.apply_sensor4.Size = new System.Drawing.Size(114, 31);
-            this.apply_sensor4.TabIndex = 0;
-            this.apply_sensor4.Text = "Apply";
-            this.apply_sensor4.UseVisualStyleBackColor = true;
-            this.apply_sensor4.Click += new System.EventHandler(this.Apply_sensor4_Click);
-            // 
             // tableLayoutPanel3
             // 
             this.tableLayoutPanel3.ColumnCount = 2;
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.Controls.Add(this.apply_sensor7, 1, 5);
+            this.tableLayoutPanel3.Controls.Add(this.richTextBox11, 1, 0);
+            this.tableLayoutPanel3.Controls.Add(this.button3, 1, 5);
+            this.tableLayoutPanel3.Controls.Add(this.richTextBox12, 1, 1);
+            this.tableLayoutPanel3.Controls.Add(this.richTextBox13, 1, 2);
+            this.tableLayoutPanel3.Controls.Add(this.richTextBox14, 1, 3);
+            this.tableLayoutPanel3.Controls.Add(this.richTextBox15, 1, 4);
             this.tableLayoutPanel3.Controls.Add(this.label11, 0, 0);
             this.tableLayoutPanel3.Controls.Add(this.label12, 0, 1);
             this.tableLayoutPanel3.Controls.Add(this.label13, 0, 2);
             this.tableLayoutPanel3.Controls.Add(this.label14, 0, 3);
             this.tableLayoutPanel3.Controls.Add(this.label15, 0, 4);
-            this.tableLayoutPanel3.Controls.Add(this.nudY7, 1, 0);
-            this.tableLayoutPanel3.Controls.Add(this.nudX7, 1, 1);
-            this.tableLayoutPanel3.Controls.Add(this.dng71, 1, 2);
-            this.tableLayoutPanel3.Controls.Add(this.dng72, 1, 3);
-            this.tableLayoutPanel3.Controls.Add(this.dng73, 1, 4);
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(658, 35);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(619, 39);
             this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 6;
@@ -738,16 +518,60 @@
             this.tableLayoutPanel3.Size = new System.Drawing.Size(240, 204);
             this.tableLayoutPanel3.TabIndex = 2;
             // 
-            // apply_sensor7
+            // richTextBox11
             // 
-            this.apply_sensor7.Location = new System.Drawing.Point(123, 167);
-            this.apply_sensor7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.apply_sensor7.Name = "apply_sensor7";
-            this.apply_sensor7.Size = new System.Drawing.Size(114, 31);
-            this.apply_sensor7.TabIndex = 0;
-            this.apply_sensor7.Text = "Apply";
-            this.apply_sensor7.UseVisualStyleBackColor = true;
-            this.apply_sensor7.Click += new System.EventHandler(this.Apply_sensor7_Click);
+            this.richTextBox11.Location = new System.Drawing.Point(123, 2);
+            this.richTextBox11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox11.Name = "richTextBox11";
+            this.richTextBox11.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox11.TabIndex = 1;
+            this.richTextBox11.Text = "";
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(123, 167);
+            this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(114, 31);
+            this.button3.TabIndex = 0;
+            this.button3.Text = "Apply";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // richTextBox12
+            // 
+            this.richTextBox12.Location = new System.Drawing.Point(123, 35);
+            this.richTextBox12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox12.Name = "richTextBox12";
+            this.richTextBox12.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox12.TabIndex = 2;
+            this.richTextBox12.Text = "";
+            // 
+            // richTextBox13
+            // 
+            this.richTextBox13.Location = new System.Drawing.Point(123, 68);
+            this.richTextBox13.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox13.Name = "richTextBox13";
+            this.richTextBox13.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox13.TabIndex = 3;
+            this.richTextBox13.Text = "";
+            // 
+            // richTextBox14
+            // 
+            this.richTextBox14.Location = new System.Drawing.Point(123, 101);
+            this.richTextBox14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox14.Name = "richTextBox14";
+            this.richTextBox14.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox14.TabIndex = 4;
+            this.richTextBox14.Text = "";
+            // 
+            // richTextBox15
+            // 
+            this.richTextBox15.Location = new System.Drawing.Point(123, 134);
+            this.richTextBox15.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox15.Name = "richTextBox15";
+            this.richTextBox15.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox15.TabIndex = 5;
+            this.richTextBox15.Text = "";
             // 
             // label11
             // 
@@ -800,139 +624,23 @@
             this.label15.TabIndex = 10;
             this.label15.Text = "Danger 3";
             // 
-            // nudY7
-            // 
-            this.nudY7.DecimalPlaces = 2;
-            this.nudY7.Location = new System.Drawing.Point(123, 3);
-            this.nudY7.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.nudY7.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.nudY7.Name = "nudY7";
-            this.nudY7.Size = new System.Drawing.Size(113, 22);
-            this.nudY7.TabIndex = 12;
-            this.nudY7.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            // 
-            // nudX7
-            // 
-            this.nudX7.DecimalPlaces = 2;
-            this.nudX7.Location = new System.Drawing.Point(123, 36);
-            this.nudX7.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.nudX7.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.nudX7.Name = "nudX7";
-            this.nudX7.Size = new System.Drawing.Size(113, 22);
-            this.nudX7.TabIndex = 13;
-            this.nudX7.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            this.nudX7.ValueChanged += new System.EventHandler(this.NumericUpDown21_ValueChanged);
-            // 
-            // dng71
-            // 
-            this.dng71.DecimalPlaces = 2;
-            this.dng71.Location = new System.Drawing.Point(123, 69);
-            this.dng71.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.dng71.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.dng71.Name = "dng71";
-            this.dng71.Size = new System.Drawing.Size(113, 22);
-            this.dng71.TabIndex = 14;
-            this.dng71.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            // 
-            // dng72
-            // 
-            this.dng72.DecimalPlaces = 2;
-            this.dng72.Location = new System.Drawing.Point(123, 102);
-            this.dng72.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.dng72.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.dng72.Name = "dng72";
-            this.dng72.Size = new System.Drawing.Size(113, 22);
-            this.dng72.TabIndex = 15;
-            this.dng72.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            // 
-            // dng73
-            // 
-            this.dng73.DecimalPlaces = 2;
-            this.dng73.Location = new System.Drawing.Point(123, 135);
-            this.dng73.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.dng73.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.dng73.Name = "dng73";
-            this.dng73.Size = new System.Drawing.Size(113, 22);
-            this.dng73.TabIndex = 16;
-            this.dng73.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            // 
             // tableLayoutPanel4
             // 
             this.tableLayoutPanel4.ColumnCount = 2;
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel4.Controls.Add(this.richTextBox16, 1, 0);
+            this.tableLayoutPanel4.Controls.Add(this.button4, 1, 5);
+            this.tableLayoutPanel4.Controls.Add(this.richTextBox17, 1, 1);
+            this.tableLayoutPanel4.Controls.Add(this.richTextBox18, 1, 2);
+            this.tableLayoutPanel4.Controls.Add(this.richTextBox19, 1, 3);
+            this.tableLayoutPanel4.Controls.Add(this.richTextBox20, 1, 4);
             this.tableLayoutPanel4.Controls.Add(this.label16, 0, 0);
             this.tableLayoutPanel4.Controls.Add(this.label17, 0, 1);
             this.tableLayoutPanel4.Controls.Add(this.label18, 0, 2);
             this.tableLayoutPanel4.Controls.Add(this.label19, 0, 3);
             this.tableLayoutPanel4.Controls.Add(this.label20, 0, 4);
-            this.tableLayoutPanel4.Controls.Add(this.apply_sensor10, 1, 5);
-            this.tableLayoutPanel4.Controls.Add(this.nudY10, 1, 0);
-            this.tableLayoutPanel4.Controls.Add(this.nudX10, 1, 1);
-            this.tableLayoutPanel4.Controls.Add(this.dng101, 1, 2);
-            this.tableLayoutPanel4.Controls.Add(this.dng102, 1, 3);
-            this.tableLayoutPanel4.Controls.Add(this.dng103, 1, 4);
-            this.tableLayoutPanel4.Location = new System.Drawing.Point(962, 35);
+            this.tableLayoutPanel4.Location = new System.Drawing.Point(923, 39);
             this.tableLayoutPanel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
             this.tableLayoutPanel4.RowCount = 6;
@@ -944,6 +652,61 @@
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.tableLayoutPanel4.Size = new System.Drawing.Size(240, 204);
             this.tableLayoutPanel4.TabIndex = 3;
+            // 
+            // richTextBox16
+            // 
+            this.richTextBox16.Location = new System.Drawing.Point(123, 2);
+            this.richTextBox16.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox16.Name = "richTextBox16";
+            this.richTextBox16.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox16.TabIndex = 1;
+            this.richTextBox16.Text = "";
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(123, 167);
+            this.button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(114, 31);
+            this.button4.TabIndex = 0;
+            this.button4.Text = "Apply";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // richTextBox17
+            // 
+            this.richTextBox17.Location = new System.Drawing.Point(123, 35);
+            this.richTextBox17.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox17.Name = "richTextBox17";
+            this.richTextBox17.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox17.TabIndex = 2;
+            this.richTextBox17.Text = "";
+            // 
+            // richTextBox18
+            // 
+            this.richTextBox18.Location = new System.Drawing.Point(123, 68);
+            this.richTextBox18.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox18.Name = "richTextBox18";
+            this.richTextBox18.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox18.TabIndex = 3;
+            this.richTextBox18.Text = "";
+            // 
+            // richTextBox19
+            // 
+            this.richTextBox19.Location = new System.Drawing.Point(123, 101);
+            this.richTextBox19.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox19.Name = "richTextBox19";
+            this.richTextBox19.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox19.TabIndex = 4;
+            this.richTextBox19.Text = "";
+            // 
+            // richTextBox20
+            // 
+            this.richTextBox20.Location = new System.Drawing.Point(123, 134);
+            this.richTextBox20.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox20.Name = "richTextBox20";
+            this.richTextBox20.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox20.TabIndex = 5;
+            this.richTextBox20.Text = "";
             // 
             // label16
             // 
@@ -996,172 +759,89 @@
             this.label20.TabIndex = 10;
             this.label20.Text = "Danger 3";
             // 
-            // apply_sensor10
+            // tableLayoutPanel5
             // 
-            this.apply_sensor10.Location = new System.Drawing.Point(123, 167);
-            this.apply_sensor10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.apply_sensor10.Name = "apply_sensor10";
-            this.apply_sensor10.Size = new System.Drawing.Size(114, 31);
-            this.apply_sensor10.TabIndex = 0;
-            this.apply_sensor10.Text = "Apply";
-            this.apply_sensor10.UseVisualStyleBackColor = true;
-            this.apply_sensor10.Click += new System.EventHandler(this.Apply_sensor10_Click);
+            this.tableLayoutPanel5.ColumnCount = 2;
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel5.Controls.Add(this.richTextBox21, 1, 0);
+            this.tableLayoutPanel5.Controls.Add(this.button5, 1, 5);
+            this.tableLayoutPanel5.Controls.Add(this.richTextBox22, 1, 1);
+            this.tableLayoutPanel5.Controls.Add(this.richTextBox23, 1, 2);
+            this.tableLayoutPanel5.Controls.Add(this.richTextBox24, 1, 3);
+            this.tableLayoutPanel5.Controls.Add(this.richTextBox25, 1, 4);
+            this.tableLayoutPanel5.Controls.Add(this.label21, 0, 0);
+            this.tableLayoutPanel5.Controls.Add(this.label22, 0, 1);
+            this.tableLayoutPanel5.Controls.Add(this.label23, 0, 2);
+            this.tableLayoutPanel5.Controls.Add(this.label24, 0, 3);
+            this.tableLayoutPanel5.Controls.Add(this.label25, 0, 4);
+            this.tableLayoutPanel5.Location = new System.Drawing.Point(923, 284);
+            this.tableLayoutPanel5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tableLayoutPanel5.Name = "tableLayoutPanel5";
+            this.tableLayoutPanel5.RowCount = 6;
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(240, 204);
+            this.tableLayoutPanel5.TabIndex = 7;
             // 
-            // nudY10
+            // richTextBox21
             // 
-            this.nudY10.DecimalPlaces = 2;
-            this.nudY10.Location = new System.Drawing.Point(123, 3);
-            this.nudY10.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.nudY10.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.nudY10.Name = "nudY10";
-            this.nudY10.Size = new System.Drawing.Size(113, 22);
-            this.nudY10.TabIndex = 12;
-            this.nudY10.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
+            this.richTextBox21.Location = new System.Drawing.Point(123, 2);
+            this.richTextBox21.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox21.Name = "richTextBox21";
+            this.richTextBox21.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox21.TabIndex = 1;
+            this.richTextBox21.Text = "";
             // 
-            // nudX10
+            // button5
             // 
-            this.nudX10.DecimalPlaces = 2;
-            this.nudX10.Location = new System.Drawing.Point(123, 36);
-            this.nudX10.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.nudX10.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.nudX10.Name = "nudX10";
-            this.nudX10.Size = new System.Drawing.Size(113, 22);
-            this.nudX10.TabIndex = 13;
-            this.nudX10.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
+            this.button5.Location = new System.Drawing.Point(123, 167);
+            this.button5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(114, 31);
+            this.button5.TabIndex = 0;
+            this.button5.Text = "Apply";
+            this.button5.UseVisualStyleBackColor = true;
             // 
-            // dng101
+            // richTextBox22
             // 
-            this.dng101.DecimalPlaces = 2;
-            this.dng101.Location = new System.Drawing.Point(123, 69);
-            this.dng101.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.dng101.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.dng101.Name = "dng101";
-            this.dng101.Size = new System.Drawing.Size(113, 22);
-            this.dng101.TabIndex = 14;
-            this.dng101.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            this.dng101.ValueChanged += new System.EventHandler(this.Dng735_ValueChanged);
+            this.richTextBox22.Location = new System.Drawing.Point(123, 35);
+            this.richTextBox22.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox22.Name = "richTextBox22";
+            this.richTextBox22.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox22.TabIndex = 2;
+            this.richTextBox22.Text = "";
             // 
-            // dng102
+            // richTextBox23
             // 
-            this.dng102.DecimalPlaces = 2;
-            this.dng102.Location = new System.Drawing.Point(123, 102);
-            this.dng102.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.dng102.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.dng102.Name = "dng102";
-            this.dng102.Size = new System.Drawing.Size(113, 22);
-            this.dng102.TabIndex = 15;
-            this.dng102.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
+            this.richTextBox23.Location = new System.Drawing.Point(123, 68);
+            this.richTextBox23.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox23.Name = "richTextBox23";
+            this.richTextBox23.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox23.TabIndex = 3;
+            this.richTextBox23.Text = "";
             // 
-            // dng103
+            // richTextBox24
             // 
-            this.dng103.DecimalPlaces = 2;
-            this.dng103.Location = new System.Drawing.Point(123, 135);
-            this.dng103.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.dng103.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.dng103.Name = "dng103";
-            this.dng103.Size = new System.Drawing.Size(113, 22);
-            this.dng103.TabIndex = 16;
-            this.dng103.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
+            this.richTextBox24.Location = new System.Drawing.Point(123, 101);
+            this.richTextBox24.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox24.Name = "richTextBox24";
+            this.richTextBox24.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox24.TabIndex = 4;
+            this.richTextBox24.Text = "";
             // 
-            // table
+            // richTextBox25
             // 
-            this.table.ColumnCount = 2;
-            this.table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.table.Controls.Add(this.apply_sensor11, 1, 5);
-            this.table.Controls.Add(this.label21, 0, 0);
-            this.table.Controls.Add(this.label22, 0, 1);
-            this.table.Controls.Add(this.label23, 0, 2);
-            this.table.Controls.Add(this.label24, 0, 3);
-            this.table.Controls.Add(this.label25, 0, 4);
-            this.table.Controls.Add(this.nudY11, 1, 0);
-            this.table.Controls.Add(this.nudX11, 1, 1);
-            this.table.Controls.Add(this.dng111, 1, 2);
-            this.table.Controls.Add(this.dng112, 1, 3);
-            this.table.Controls.Add(this.dng113, 1, 4);
-            this.table.Location = new System.Drawing.Point(962, 280);
-            this.table.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.table.Name = "table";
-            this.table.RowCount = 6;
-            this.table.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.table.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.table.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.table.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.table.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.table.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.table.Size = new System.Drawing.Size(240, 204);
-            this.table.TabIndex = 7;
-            // 
-            // apply_sensor11
-            // 
-            this.apply_sensor11.Location = new System.Drawing.Point(123, 167);
-            this.apply_sensor11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.apply_sensor11.Name = "apply_sensor11";
-            this.apply_sensor11.Size = new System.Drawing.Size(114, 31);
-            this.apply_sensor11.TabIndex = 0;
-            this.apply_sensor11.Text = "Apply";
-            this.apply_sensor11.UseVisualStyleBackColor = true;
-            this.apply_sensor11.Click += new System.EventHandler(this.Apply_sensor11_Click);
+            this.richTextBox25.Location = new System.Drawing.Point(123, 134);
+            this.richTextBox25.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox25.Name = "richTextBox25";
+            this.richTextBox25.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox25.TabIndex = 5;
+            this.richTextBox25.Text = "";
             // 
             // label21
             // 
@@ -1214,139 +894,23 @@
             this.label25.TabIndex = 10;
             this.label25.Text = "Danger 3";
             // 
-            // nudY11
-            // 
-            this.nudY11.DecimalPlaces = 2;
-            this.nudY11.Location = new System.Drawing.Point(123, 3);
-            this.nudY11.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.nudY11.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.nudY11.Name = "nudY11";
-            this.nudY11.Size = new System.Drawing.Size(113, 22);
-            this.nudY11.TabIndex = 12;
-            this.nudY11.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            // 
-            // nudX11
-            // 
-            this.nudX11.DecimalPlaces = 2;
-            this.nudX11.Location = new System.Drawing.Point(123, 36);
-            this.nudX11.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.nudX11.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.nudX11.Name = "nudX11";
-            this.nudX11.Size = new System.Drawing.Size(113, 22);
-            this.nudX11.TabIndex = 13;
-            this.nudX11.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            // 
-            // dng111
-            // 
-            this.dng111.DecimalPlaces = 2;
-            this.dng111.Location = new System.Drawing.Point(123, 69);
-            this.dng111.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.dng111.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.dng111.Name = "dng111";
-            this.dng111.Size = new System.Drawing.Size(113, 22);
-            this.dng111.TabIndex = 14;
-            this.dng111.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            this.dng111.ValueChanged += new System.EventHandler(this.H_ValueChanged);
-            // 
-            // dng112
-            // 
-            this.dng112.DecimalPlaces = 2;
-            this.dng112.Location = new System.Drawing.Point(123, 102);
-            this.dng112.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.dng112.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.dng112.Name = "dng112";
-            this.dng112.Size = new System.Drawing.Size(113, 22);
-            this.dng112.TabIndex = 15;
-            this.dng112.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            // 
-            // dng113
-            // 
-            this.dng113.DecimalPlaces = 2;
-            this.dng113.Location = new System.Drawing.Point(123, 135);
-            this.dng113.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.dng113.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.dng113.Name = "dng113";
-            this.dng113.Size = new System.Drawing.Size(113, 22);
-            this.dng113.TabIndex = 16;
-            this.dng113.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            // 
             // tableLayoutPanel6
             // 
             this.tableLayoutPanel6.ColumnCount = 2;
             this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel6.Controls.Add(this.apply_sensor8, 1, 5);
+            this.tableLayoutPanel6.Controls.Add(this.richTextBox26, 1, 0);
+            this.tableLayoutPanel6.Controls.Add(this.button6, 1, 5);
+            this.tableLayoutPanel6.Controls.Add(this.richTextBox27, 1, 1);
+            this.tableLayoutPanel6.Controls.Add(this.richTextBox28, 1, 2);
+            this.tableLayoutPanel6.Controls.Add(this.richTextBox29, 1, 3);
+            this.tableLayoutPanel6.Controls.Add(this.richTextBox30, 1, 4);
             this.tableLayoutPanel6.Controls.Add(this.label26, 0, 0);
             this.tableLayoutPanel6.Controls.Add(this.label27, 0, 1);
             this.tableLayoutPanel6.Controls.Add(this.label28, 0, 2);
             this.tableLayoutPanel6.Controls.Add(this.label29, 0, 3);
             this.tableLayoutPanel6.Controls.Add(this.label30, 0, 4);
-            this.tableLayoutPanel6.Controls.Add(this.nudY8, 1, 0);
-            this.tableLayoutPanel6.Controls.Add(this.nudX8, 1, 1);
-            this.tableLayoutPanel6.Controls.Add(this.dng81, 1, 2);
-            this.tableLayoutPanel6.Controls.Add(this.dng82, 1, 3);
-            this.tableLayoutPanel6.Controls.Add(this.dng83, 1, 4);
-            this.tableLayoutPanel6.Location = new System.Drawing.Point(658, 283);
+            this.tableLayoutPanel6.Location = new System.Drawing.Point(619, 287);
             this.tableLayoutPanel6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tableLayoutPanel6.Name = "tableLayoutPanel6";
             this.tableLayoutPanel6.RowCount = 6;
@@ -1359,16 +923,60 @@
             this.tableLayoutPanel6.Size = new System.Drawing.Size(240, 204);
             this.tableLayoutPanel6.TabIndex = 6;
             // 
-            // apply_sensor8
+            // richTextBox26
             // 
-            this.apply_sensor8.Location = new System.Drawing.Point(123, 167);
-            this.apply_sensor8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.apply_sensor8.Name = "apply_sensor8";
-            this.apply_sensor8.Size = new System.Drawing.Size(114, 31);
-            this.apply_sensor8.TabIndex = 0;
-            this.apply_sensor8.Text = "Apply";
-            this.apply_sensor8.UseVisualStyleBackColor = true;
-            this.apply_sensor8.Click += new System.EventHandler(this.Apply_sensor8_Click);
+            this.richTextBox26.Location = new System.Drawing.Point(123, 2);
+            this.richTextBox26.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox26.Name = "richTextBox26";
+            this.richTextBox26.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox26.TabIndex = 1;
+            this.richTextBox26.Text = "";
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(123, 167);
+            this.button6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(114, 31);
+            this.button6.TabIndex = 0;
+            this.button6.Text = "Apply";
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // richTextBox27
+            // 
+            this.richTextBox27.Location = new System.Drawing.Point(123, 35);
+            this.richTextBox27.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox27.Name = "richTextBox27";
+            this.richTextBox27.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox27.TabIndex = 2;
+            this.richTextBox27.Text = "";
+            // 
+            // richTextBox28
+            // 
+            this.richTextBox28.Location = new System.Drawing.Point(123, 68);
+            this.richTextBox28.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox28.Name = "richTextBox28";
+            this.richTextBox28.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox28.TabIndex = 3;
+            this.richTextBox28.Text = "";
+            // 
+            // richTextBox29
+            // 
+            this.richTextBox29.Location = new System.Drawing.Point(123, 101);
+            this.richTextBox29.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox29.Name = "richTextBox29";
+            this.richTextBox29.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox29.TabIndex = 4;
+            this.richTextBox29.Text = "";
+            // 
+            // richTextBox30
+            // 
+            this.richTextBox30.Location = new System.Drawing.Point(123, 134);
+            this.richTextBox30.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox30.Name = "richTextBox30";
+            this.richTextBox30.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox30.TabIndex = 5;
+            this.richTextBox30.Text = "";
             // 
             // label26
             // 
@@ -1421,139 +1029,23 @@
             this.label30.TabIndex = 10;
             this.label30.Text = "Danger 3";
             // 
-            // nudY8
-            // 
-            this.nudY8.DecimalPlaces = 2;
-            this.nudY8.Location = new System.Drawing.Point(123, 3);
-            this.nudY8.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.nudY8.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.nudY8.Name = "nudY8";
-            this.nudY8.Size = new System.Drawing.Size(113, 22);
-            this.nudY8.TabIndex = 12;
-            this.nudY8.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            // 
-            // nudX8
-            // 
-            this.nudX8.DecimalPlaces = 2;
-            this.nudX8.Location = new System.Drawing.Point(123, 36);
-            this.nudX8.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.nudX8.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.nudX8.Name = "nudX8";
-            this.nudX8.Size = new System.Drawing.Size(113, 22);
-            this.nudX8.TabIndex = 13;
-            this.nudX8.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            // 
-            // dng81
-            // 
-            this.dng81.DecimalPlaces = 2;
-            this.dng81.Location = new System.Drawing.Point(123, 69);
-            this.dng81.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.dng81.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.dng81.Name = "dng81";
-            this.dng81.Size = new System.Drawing.Size(113, 22);
-            this.dng81.TabIndex = 14;
-            this.dng81.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            this.dng81.ValueChanged += new System.EventHandler(this.NumericUpDown27_ValueChanged);
-            // 
-            // dng82
-            // 
-            this.dng82.DecimalPlaces = 2;
-            this.dng82.Location = new System.Drawing.Point(123, 102);
-            this.dng82.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.dng82.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.dng82.Name = "dng82";
-            this.dng82.Size = new System.Drawing.Size(113, 22);
-            this.dng82.TabIndex = 15;
-            this.dng82.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            // 
-            // dng83
-            // 
-            this.dng83.DecimalPlaces = 2;
-            this.dng83.Location = new System.Drawing.Point(123, 135);
-            this.dng83.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.dng83.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.dng83.Name = "dng83";
-            this.dng83.Size = new System.Drawing.Size(113, 22);
-            this.dng83.TabIndex = 16;
-            this.dng83.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            // 
             // tableLayoutPanel7
             // 
             this.tableLayoutPanel7.ColumnCount = 2;
             this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel7.Controls.Add(this.apply_sensor5, 1, 5);
+            this.tableLayoutPanel7.Controls.Add(this.richTextBox31, 1, 0);
+            this.tableLayoutPanel7.Controls.Add(this.button7, 1, 5);
+            this.tableLayoutPanel7.Controls.Add(this.richTextBox32, 1, 1);
+            this.tableLayoutPanel7.Controls.Add(this.richTextBox33, 1, 2);
+            this.tableLayoutPanel7.Controls.Add(this.richTextBox34, 1, 3);
+            this.tableLayoutPanel7.Controls.Add(this.richTextBox35, 1, 4);
             this.tableLayoutPanel7.Controls.Add(this.label31, 0, 0);
             this.tableLayoutPanel7.Controls.Add(this.label32, 0, 1);
             this.tableLayoutPanel7.Controls.Add(this.label33, 0, 2);
             this.tableLayoutPanel7.Controls.Add(this.label34, 0, 3);
             this.tableLayoutPanel7.Controls.Add(this.label35, 0, 4);
-            this.tableLayoutPanel7.Controls.Add(this.nudY5, 1, 0);
-            this.tableLayoutPanel7.Controls.Add(this.nudX5, 1, 1);
-            this.tableLayoutPanel7.Controls.Add(this.dng51, 1, 2);
-            this.tableLayoutPanel7.Controls.Add(this.dng52, 1, 3);
-            this.tableLayoutPanel7.Controls.Add(this.dng53, 1, 4);
-            this.tableLayoutPanel7.Location = new System.Drawing.Point(346, 280);
+            this.tableLayoutPanel7.Location = new System.Drawing.Point(307, 284);
             this.tableLayoutPanel7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tableLayoutPanel7.Name = "tableLayoutPanel7";
             this.tableLayoutPanel7.RowCount = 6;
@@ -1565,18 +1057,61 @@
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.tableLayoutPanel7.Size = new System.Drawing.Size(240, 204);
             this.tableLayoutPanel7.TabIndex = 5;
-            this.tableLayoutPanel7.Paint += new System.Windows.Forms.PaintEventHandler(this.TableLayoutPanel7_Paint);
             // 
-            // apply_sensor5
+            // richTextBox31
             // 
-            this.apply_sensor5.Location = new System.Drawing.Point(123, 167);
-            this.apply_sensor5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.apply_sensor5.Name = "apply_sensor5";
-            this.apply_sensor5.Size = new System.Drawing.Size(114, 31);
-            this.apply_sensor5.TabIndex = 0;
-            this.apply_sensor5.Text = "Apply";
-            this.apply_sensor5.UseVisualStyleBackColor = true;
-            this.apply_sensor5.Click += new System.EventHandler(this.Apply_sensor5_Click);
+            this.richTextBox31.Location = new System.Drawing.Point(123, 2);
+            this.richTextBox31.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox31.Name = "richTextBox31";
+            this.richTextBox31.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox31.TabIndex = 1;
+            this.richTextBox31.Text = "";
+            // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(123, 167);
+            this.button7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(114, 31);
+            this.button7.TabIndex = 0;
+            this.button7.Text = "Apply";
+            this.button7.UseVisualStyleBackColor = true;
+            // 
+            // richTextBox32
+            // 
+            this.richTextBox32.Location = new System.Drawing.Point(123, 35);
+            this.richTextBox32.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox32.Name = "richTextBox32";
+            this.richTextBox32.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox32.TabIndex = 2;
+            this.richTextBox32.Text = "";
+            // 
+            // richTextBox33
+            // 
+            this.richTextBox33.Location = new System.Drawing.Point(123, 68);
+            this.richTextBox33.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox33.Name = "richTextBox33";
+            this.richTextBox33.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox33.TabIndex = 3;
+            this.richTextBox33.Text = "";
+            // 
+            // richTextBox34
+            // 
+            this.richTextBox34.Location = new System.Drawing.Point(123, 101);
+            this.richTextBox34.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox34.Name = "richTextBox34";
+            this.richTextBox34.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox34.TabIndex = 4;
+            this.richTextBox34.Text = "";
+            // 
+            // richTextBox35
+            // 
+            this.richTextBox35.Location = new System.Drawing.Point(123, 134);
+            this.richTextBox35.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox35.Name = "richTextBox35";
+            this.richTextBox35.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox35.TabIndex = 5;
+            this.richTextBox35.Text = "";
             // 
             // label31
             // 
@@ -1629,138 +1164,22 @@
             this.label35.TabIndex = 10;
             this.label35.Text = "Danger 3";
             // 
-            // nudY5
-            // 
-            this.nudY5.DecimalPlaces = 2;
-            this.nudY5.Location = new System.Drawing.Point(123, 3);
-            this.nudY5.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.nudY5.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.nudY5.Name = "nudY5";
-            this.nudY5.Size = new System.Drawing.Size(113, 22);
-            this.nudY5.TabIndex = 12;
-            this.nudY5.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            this.nudY5.ValueChanged += new System.EventHandler(this.NumericUpDown15_ValueChanged);
-            // 
-            // nudX5
-            // 
-            this.nudX5.DecimalPlaces = 2;
-            this.nudX5.Location = new System.Drawing.Point(123, 36);
-            this.nudX5.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.nudX5.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.nudX5.Name = "nudX5";
-            this.nudX5.Size = new System.Drawing.Size(113, 22);
-            this.nudX5.TabIndex = 13;
-            this.nudX5.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            // 
-            // dng51
-            // 
-            this.dng51.DecimalPlaces = 2;
-            this.dng51.Location = new System.Drawing.Point(123, 69);
-            this.dng51.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.dng51.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.dng51.Name = "dng51";
-            this.dng51.Size = new System.Drawing.Size(113, 22);
-            this.dng51.TabIndex = 14;
-            this.dng51.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            // 
-            // dng52
-            // 
-            this.dng52.DecimalPlaces = 2;
-            this.dng52.Location = new System.Drawing.Point(123, 102);
-            this.dng52.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.dng52.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.dng52.Name = "dng52";
-            this.dng52.Size = new System.Drawing.Size(113, 22);
-            this.dng52.TabIndex = 15;
-            this.dng52.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            // 
-            // dng53
-            // 
-            this.dng53.DecimalPlaces = 2;
-            this.dng53.Location = new System.Drawing.Point(123, 135);
-            this.dng53.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.dng53.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.dng53.Name = "dng53";
-            this.dng53.Size = new System.Drawing.Size(113, 22);
-            this.dng53.TabIndex = 16;
-            this.dng53.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            // 
             // tableLayoutPanel8
             // 
             this.tableLayoutPanel8.ColumnCount = 2;
             this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel8.Controls.Add(this.apply_sensor2, 1, 5);
+            this.tableLayoutPanel8.Controls.Add(this.richTextBox36, 1, 0);
+            this.tableLayoutPanel8.Controls.Add(this.button8, 1, 5);
+            this.tableLayoutPanel8.Controls.Add(this.richTextBox37, 1, 1);
+            this.tableLayoutPanel8.Controls.Add(this.richTextBox38, 1, 2);
+            this.tableLayoutPanel8.Controls.Add(this.richTextBox39, 1, 3);
+            this.tableLayoutPanel8.Controls.Add(this.richTextBox40, 1, 4);
             this.tableLayoutPanel8.Controls.Add(this.label36, 0, 0);
             this.tableLayoutPanel8.Controls.Add(this.label37, 0, 1);
             this.tableLayoutPanel8.Controls.Add(this.label38, 0, 2);
             this.tableLayoutPanel8.Controls.Add(this.label39, 0, 3);
             this.tableLayoutPanel8.Controls.Add(this.label40, 0, 4);
-            this.tableLayoutPanel8.Controls.Add(this.nudY2, 1, 0);
-            this.tableLayoutPanel8.Controls.Add(this.nudX2, 1, 1);
-            this.tableLayoutPanel8.Controls.Add(this.dng21, 1, 2);
-            this.tableLayoutPanel8.Controls.Add(this.dng22, 1, 3);
-            this.tableLayoutPanel8.Controls.Add(this.dng23, 1, 4);
             this.tableLayoutPanel8.Location = new System.Drawing.Point(27, 284);
             this.tableLayoutPanel8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tableLayoutPanel8.Name = "tableLayoutPanel8";
@@ -1774,16 +1193,60 @@
             this.tableLayoutPanel8.Size = new System.Drawing.Size(240, 204);
             this.tableLayoutPanel8.TabIndex = 4;
             // 
-            // apply_sensor2
+            // richTextBox36
             // 
-            this.apply_sensor2.Location = new System.Drawing.Point(123, 167);
-            this.apply_sensor2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.apply_sensor2.Name = "apply_sensor2";
-            this.apply_sensor2.Size = new System.Drawing.Size(114, 31);
-            this.apply_sensor2.TabIndex = 0;
-            this.apply_sensor2.Text = "Apply";
-            this.apply_sensor2.UseVisualStyleBackColor = true;
-            this.apply_sensor2.Click += new System.EventHandler(this.Button8_Click);
+            this.richTextBox36.Location = new System.Drawing.Point(123, 2);
+            this.richTextBox36.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox36.Name = "richTextBox36";
+            this.richTextBox36.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox36.TabIndex = 1;
+            this.richTextBox36.Text = "";
+            // 
+            // button8
+            // 
+            this.button8.Location = new System.Drawing.Point(123, 167);
+            this.button8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(114, 31);
+            this.button8.TabIndex = 0;
+            this.button8.Text = "Apply";
+            this.button8.UseVisualStyleBackColor = true;
+            // 
+            // richTextBox37
+            // 
+            this.richTextBox37.Location = new System.Drawing.Point(123, 35);
+            this.richTextBox37.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox37.Name = "richTextBox37";
+            this.richTextBox37.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox37.TabIndex = 2;
+            this.richTextBox37.Text = "";
+            // 
+            // richTextBox38
+            // 
+            this.richTextBox38.Location = new System.Drawing.Point(123, 68);
+            this.richTextBox38.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox38.Name = "richTextBox38";
+            this.richTextBox38.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox38.TabIndex = 3;
+            this.richTextBox38.Text = "";
+            // 
+            // richTextBox39
+            // 
+            this.richTextBox39.Location = new System.Drawing.Point(123, 101);
+            this.richTextBox39.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox39.Name = "richTextBox39";
+            this.richTextBox39.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox39.TabIndex = 4;
+            this.richTextBox39.Text = "";
+            // 
+            // richTextBox40
+            // 
+            this.richTextBox40.Location = new System.Drawing.Point(123, 134);
+            this.richTextBox40.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox40.Name = "richTextBox40";
+            this.richTextBox40.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox40.TabIndex = 5;
+            this.richTextBox40.Text = "";
             // 
             // label36
             // 
@@ -1836,138 +1299,23 @@
             this.label40.TabIndex = 10;
             this.label40.Text = "Danger 3";
             // 
-            // nudY2
-            // 
-            this.nudY2.DecimalPlaces = 2;
-            this.nudY2.Location = new System.Drawing.Point(123, 3);
-            this.nudY2.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.nudY2.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.nudY2.Name = "nudY2";
-            this.nudY2.Size = new System.Drawing.Size(113, 22);
-            this.nudY2.TabIndex = 12;
-            this.nudY2.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            // 
-            // nudX2
-            // 
-            this.nudX2.DecimalPlaces = 2;
-            this.nudX2.Location = new System.Drawing.Point(123, 36);
-            this.nudX2.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.nudX2.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.nudX2.Name = "nudX2";
-            this.nudX2.Size = new System.Drawing.Size(113, 22);
-            this.nudX2.TabIndex = 13;
-            this.nudX2.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            // 
-            // dng21
-            // 
-            this.dng21.DecimalPlaces = 2;
-            this.dng21.Location = new System.Drawing.Point(123, 69);
-            this.dng21.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.dng21.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.dng21.Name = "dng21";
-            this.dng21.Size = new System.Drawing.Size(113, 22);
-            this.dng21.TabIndex = 14;
-            this.dng21.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            // 
-            // dng22
-            // 
-            this.dng22.DecimalPlaces = 2;
-            this.dng22.Location = new System.Drawing.Point(123, 102);
-            this.dng22.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.dng22.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.dng22.Name = "dng22";
-            this.dng22.Size = new System.Drawing.Size(113, 22);
-            this.dng22.TabIndex = 15;
-            this.dng22.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            // 
-            // dng23
-            // 
-            this.dng23.DecimalPlaces = 2;
-            this.dng23.Location = new System.Drawing.Point(123, 135);
-            this.dng23.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.dng23.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.dng23.Name = "dng23";
-            this.dng23.Size = new System.Drawing.Size(113, 22);
-            this.dng23.TabIndex = 16;
-            this.dng23.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            // 
             // tableLayoutPanel9
             // 
             this.tableLayoutPanel9.ColumnCount = 2;
             this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel9.Controls.Add(this.apply_sensor13, 1, 5);
+            this.tableLayoutPanel9.Controls.Add(this.richTextBox41, 1, 0);
+            this.tableLayoutPanel9.Controls.Add(this.button9, 1, 5);
+            this.tableLayoutPanel9.Controls.Add(this.richTextBox42, 1, 1);
+            this.tableLayoutPanel9.Controls.Add(this.richTextBox43, 1, 2);
+            this.tableLayoutPanel9.Controls.Add(this.richTextBox44, 1, 3);
+            this.tableLayoutPanel9.Controls.Add(this.richTextBox45, 1, 4);
             this.tableLayoutPanel9.Controls.Add(this.label41, 0, 0);
             this.tableLayoutPanel9.Controls.Add(this.label42, 0, 1);
             this.tableLayoutPanel9.Controls.Add(this.label43, 0, 2);
             this.tableLayoutPanel9.Controls.Add(this.label44, 0, 3);
             this.tableLayoutPanel9.Controls.Add(this.label45, 0, 4);
-            this.tableLayoutPanel9.Controls.Add(this.nudY13, 1, 0);
-            this.tableLayoutPanel9.Controls.Add(this.nudX13, 1, 1);
-            this.tableLayoutPanel9.Controls.Add(this.dng131, 1, 2);
-            this.tableLayoutPanel9.Controls.Add(this.dng132, 1, 3);
-            this.tableLayoutPanel9.Controls.Add(this.dng133, 1, 4);
-            this.tableLayoutPanel9.Location = new System.Drawing.Point(1260, 280);
+            this.tableLayoutPanel9.Location = new System.Drawing.Point(1221, 284);
             this.tableLayoutPanel9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tableLayoutPanel9.Name = "tableLayoutPanel9";
             this.tableLayoutPanel9.RowCount = 6;
@@ -1979,18 +1327,61 @@
             this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.tableLayoutPanel9.Size = new System.Drawing.Size(240, 204);
             this.tableLayoutPanel9.TabIndex = 11;
-            this.tableLayoutPanel9.Paint += new System.Windows.Forms.PaintEventHandler(this.TableLayoutPanel9_Paint);
             // 
-            // apply_sensor13
+            // richTextBox41
             // 
-            this.apply_sensor13.Location = new System.Drawing.Point(123, 167);
-            this.apply_sensor13.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.apply_sensor13.Name = "apply_sensor13";
-            this.apply_sensor13.Size = new System.Drawing.Size(114, 31);
-            this.apply_sensor13.TabIndex = 0;
-            this.apply_sensor13.Text = "Apply";
-            this.apply_sensor13.UseVisualStyleBackColor = true;
-            this.apply_sensor13.Click += new System.EventHandler(this.Apply_sensor13_Click);
+            this.richTextBox41.Location = new System.Drawing.Point(123, 2);
+            this.richTextBox41.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox41.Name = "richTextBox41";
+            this.richTextBox41.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox41.TabIndex = 1;
+            this.richTextBox41.Text = "";
+            // 
+            // button9
+            // 
+            this.button9.Location = new System.Drawing.Point(123, 167);
+            this.button9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(114, 31);
+            this.button9.TabIndex = 0;
+            this.button9.Text = "Apply";
+            this.button9.UseVisualStyleBackColor = true;
+            // 
+            // richTextBox42
+            // 
+            this.richTextBox42.Location = new System.Drawing.Point(123, 35);
+            this.richTextBox42.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox42.Name = "richTextBox42";
+            this.richTextBox42.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox42.TabIndex = 2;
+            this.richTextBox42.Text = "";
+            // 
+            // richTextBox43
+            // 
+            this.richTextBox43.Location = new System.Drawing.Point(123, 68);
+            this.richTextBox43.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox43.Name = "richTextBox43";
+            this.richTextBox43.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox43.TabIndex = 3;
+            this.richTextBox43.Text = "";
+            // 
+            // richTextBox44
+            // 
+            this.richTextBox44.Location = new System.Drawing.Point(123, 101);
+            this.richTextBox44.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox44.Name = "richTextBox44";
+            this.richTextBox44.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox44.TabIndex = 4;
+            this.richTextBox44.Text = "";
+            // 
+            // richTextBox45
+            // 
+            this.richTextBox45.Location = new System.Drawing.Point(123, 134);
+            this.richTextBox45.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox45.Name = "richTextBox45";
+            this.richTextBox45.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox45.TabIndex = 5;
+            this.richTextBox45.Text = "";
             // 
             // label41
             // 
@@ -2043,139 +1434,23 @@
             this.label45.TabIndex = 10;
             this.label45.Text = "Danger 3";
             // 
-            // nudY13
-            // 
-            this.nudY13.DecimalPlaces = 2;
-            this.nudY13.Location = new System.Drawing.Point(123, 3);
-            this.nudY13.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.nudY13.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.nudY13.Name = "nudY13";
-            this.nudY13.Size = new System.Drawing.Size(113, 22);
-            this.nudY13.TabIndex = 12;
-            this.nudY13.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            // 
-            // nudX13
-            // 
-            this.nudX13.DecimalPlaces = 2;
-            this.nudX13.Location = new System.Drawing.Point(123, 36);
-            this.nudX13.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.nudX13.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.nudX13.Name = "nudX13";
-            this.nudX13.Size = new System.Drawing.Size(113, 22);
-            this.nudX13.TabIndex = 13;
-            this.nudX13.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            this.nudX13.ValueChanged += new System.EventHandler(this.NumericUpDown46_ValueChanged);
-            // 
-            // dng131
-            // 
-            this.dng131.DecimalPlaces = 2;
-            this.dng131.Location = new System.Drawing.Point(123, 69);
-            this.dng131.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.dng131.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.dng131.Name = "dng131";
-            this.dng131.Size = new System.Drawing.Size(113, 22);
-            this.dng131.TabIndex = 14;
-            this.dng131.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            // 
-            // dng132
-            // 
-            this.dng132.DecimalPlaces = 2;
-            this.dng132.Location = new System.Drawing.Point(123, 102);
-            this.dng132.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.dng132.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.dng132.Name = "dng132";
-            this.dng132.Size = new System.Drawing.Size(113, 22);
-            this.dng132.TabIndex = 15;
-            this.dng132.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            // 
-            // dng133
-            // 
-            this.dng133.DecimalPlaces = 2;
-            this.dng133.Location = new System.Drawing.Point(123, 135);
-            this.dng133.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.dng133.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.dng133.Name = "dng133";
-            this.dng133.Size = new System.Drawing.Size(113, 22);
-            this.dng133.TabIndex = 16;
-            this.dng133.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            // 
             // tableLayoutPanel10
             // 
             this.tableLayoutPanel10.ColumnCount = 2;
             this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel10.Controls.Add(this.apply_sensor9, 1, 5);
+            this.tableLayoutPanel10.Controls.Add(this.richTextBox46, 1, 0);
+            this.tableLayoutPanel10.Controls.Add(this.button10, 1, 5);
+            this.tableLayoutPanel10.Controls.Add(this.richTextBox47, 1, 1);
+            this.tableLayoutPanel10.Controls.Add(this.richTextBox48, 1, 2);
+            this.tableLayoutPanel10.Controls.Add(this.richTextBox49, 1, 3);
+            this.tableLayoutPanel10.Controls.Add(this.richTextBox50, 1, 4);
             this.tableLayoutPanel10.Controls.Add(this.label46, 0, 0);
             this.tableLayoutPanel10.Controls.Add(this.label47, 0, 1);
             this.tableLayoutPanel10.Controls.Add(this.label48, 0, 2);
             this.tableLayoutPanel10.Controls.Add(this.label49, 0, 3);
             this.tableLayoutPanel10.Controls.Add(this.label50, 0, 4);
-            this.tableLayoutPanel10.Controls.Add(this.nudY9, 1, 0);
-            this.tableLayoutPanel10.Controls.Add(this.nudX9, 1, 1);
-            this.tableLayoutPanel10.Controls.Add(this.dng91, 1, 2);
-            this.tableLayoutPanel10.Controls.Add(this.dng92, 1, 3);
-            this.tableLayoutPanel10.Controls.Add(this.dng93, 1, 4);
-            this.tableLayoutPanel10.Location = new System.Drawing.Point(658, 527);
+            this.tableLayoutPanel10.Location = new System.Drawing.Point(619, 524);
             this.tableLayoutPanel10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tableLayoutPanel10.Name = "tableLayoutPanel10";
             this.tableLayoutPanel10.RowCount = 6;
@@ -2188,16 +1463,60 @@
             this.tableLayoutPanel10.Size = new System.Drawing.Size(240, 204);
             this.tableLayoutPanel10.TabIndex = 10;
             // 
-            // apply_sensor9
+            // richTextBox46
             // 
-            this.apply_sensor9.Location = new System.Drawing.Point(123, 167);
-            this.apply_sensor9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.apply_sensor9.Name = "apply_sensor9";
-            this.apply_sensor9.Size = new System.Drawing.Size(114, 31);
-            this.apply_sensor9.TabIndex = 0;
-            this.apply_sensor9.Text = "Apply";
-            this.apply_sensor9.UseVisualStyleBackColor = true;
-            this.apply_sensor9.Click += new System.EventHandler(this.Apply_sensor9_Click);
+            this.richTextBox46.Location = new System.Drawing.Point(123, 2);
+            this.richTextBox46.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox46.Name = "richTextBox46";
+            this.richTextBox46.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox46.TabIndex = 1;
+            this.richTextBox46.Text = "";
+            // 
+            // button10
+            // 
+            this.button10.Location = new System.Drawing.Point(123, 167);
+            this.button10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(114, 31);
+            this.button10.TabIndex = 0;
+            this.button10.Text = "Apply";
+            this.button10.UseVisualStyleBackColor = true;
+            // 
+            // richTextBox47
+            // 
+            this.richTextBox47.Location = new System.Drawing.Point(123, 35);
+            this.richTextBox47.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox47.Name = "richTextBox47";
+            this.richTextBox47.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox47.TabIndex = 2;
+            this.richTextBox47.Text = "";
+            // 
+            // richTextBox48
+            // 
+            this.richTextBox48.Location = new System.Drawing.Point(123, 68);
+            this.richTextBox48.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox48.Name = "richTextBox48";
+            this.richTextBox48.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox48.TabIndex = 3;
+            this.richTextBox48.Text = "";
+            // 
+            // richTextBox49
+            // 
+            this.richTextBox49.Location = new System.Drawing.Point(123, 101);
+            this.richTextBox49.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox49.Name = "richTextBox49";
+            this.richTextBox49.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox49.TabIndex = 4;
+            this.richTextBox49.Text = "";
+            // 
+            // richTextBox50
+            // 
+            this.richTextBox50.Location = new System.Drawing.Point(123, 134);
+            this.richTextBox50.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox50.Name = "richTextBox50";
+            this.richTextBox50.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox50.TabIndex = 5;
+            this.richTextBox50.Text = "";
             // 
             // label46
             // 
@@ -2250,140 +1569,23 @@
             this.label50.TabIndex = 10;
             this.label50.Text = "Danger 3";
             // 
-            // nudY9
-            // 
-            this.nudY9.DecimalPlaces = 2;
-            this.nudY9.Location = new System.Drawing.Point(123, 3);
-            this.nudY9.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.nudY9.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.nudY9.Name = "nudY9";
-            this.nudY9.Size = new System.Drawing.Size(113, 22);
-            this.nudY9.TabIndex = 13;
-            this.nudY9.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            this.nudY9.ValueChanged += new System.EventHandler(this.NumericUpDown60_ValueChanged);
-            // 
-            // nudX9
-            // 
-            this.nudX9.DecimalPlaces = 2;
-            this.nudX9.Location = new System.Drawing.Point(123, 36);
-            this.nudX9.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.nudX9.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.nudX9.Name = "nudX9";
-            this.nudX9.Size = new System.Drawing.Size(113, 22);
-            this.nudX9.TabIndex = 14;
-            this.nudX9.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            // 
-            // dng91
-            // 
-            this.dng91.DecimalPlaces = 2;
-            this.dng91.Location = new System.Drawing.Point(123, 69);
-            this.dng91.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.dng91.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.dng91.Name = "dng91";
-            this.dng91.Size = new System.Drawing.Size(113, 22);
-            this.dng91.TabIndex = 15;
-            this.dng91.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            // 
-            // dng92
-            // 
-            this.dng92.DecimalPlaces = 2;
-            this.dng92.Location = new System.Drawing.Point(123, 102);
-            this.dng92.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.dng92.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.dng92.Name = "dng92";
-            this.dng92.Size = new System.Drawing.Size(113, 22);
-            this.dng92.TabIndex = 16;
-            this.dng92.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            this.dng92.ValueChanged += new System.EventHandler(this.NumericUpDown63_ValueChanged);
-            // 
-            // dng93
-            // 
-            this.dng93.DecimalPlaces = 2;
-            this.dng93.Location = new System.Drawing.Point(123, 135);
-            this.dng93.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.dng93.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.dng93.Name = "dng93";
-            this.dng93.Size = new System.Drawing.Size(113, 22);
-            this.dng93.TabIndex = 17;
-            this.dng93.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            // 
             // tableLayoutPanel11
             // 
             this.tableLayoutPanel11.ColumnCount = 2;
             this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel11.Controls.Add(this.apply_sensor6, 1, 5);
+            this.tableLayoutPanel11.Controls.Add(this.richTextBox51, 1, 0);
+            this.tableLayoutPanel11.Controls.Add(this.button11, 1, 5);
+            this.tableLayoutPanel11.Controls.Add(this.richTextBox52, 1, 1);
+            this.tableLayoutPanel11.Controls.Add(this.richTextBox53, 1, 2);
+            this.tableLayoutPanel11.Controls.Add(this.richTextBox54, 1, 3);
+            this.tableLayoutPanel11.Controls.Add(this.richTextBox55, 1, 4);
             this.tableLayoutPanel11.Controls.Add(this.label51, 0, 0);
             this.tableLayoutPanel11.Controls.Add(this.label52, 0, 1);
             this.tableLayoutPanel11.Controls.Add(this.label53, 0, 2);
             this.tableLayoutPanel11.Controls.Add(this.label54, 0, 3);
             this.tableLayoutPanel11.Controls.Add(this.label55, 0, 4);
-            this.tableLayoutPanel11.Controls.Add(this.nudY6, 1, 0);
-            this.tableLayoutPanel11.Controls.Add(this.nudX6, 1, 1);
-            this.tableLayoutPanel11.Controls.Add(this.dng61, 1, 2);
-            this.tableLayoutPanel11.Controls.Add(this.dng62, 1, 3);
-            this.tableLayoutPanel11.Controls.Add(this.dng63, 1, 4);
-            this.tableLayoutPanel11.Location = new System.Drawing.Point(346, 527);
+            this.tableLayoutPanel11.Location = new System.Drawing.Point(307, 524);
             this.tableLayoutPanel11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tableLayoutPanel11.Name = "tableLayoutPanel11";
             this.tableLayoutPanel11.RowCount = 6;
@@ -2396,16 +1598,60 @@
             this.tableLayoutPanel11.Size = new System.Drawing.Size(240, 204);
             this.tableLayoutPanel11.TabIndex = 9;
             // 
-            // apply_sensor6
+            // richTextBox51
             // 
-            this.apply_sensor6.Location = new System.Drawing.Point(123, 167);
-            this.apply_sensor6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.apply_sensor6.Name = "apply_sensor6";
-            this.apply_sensor6.Size = new System.Drawing.Size(114, 31);
-            this.apply_sensor6.TabIndex = 0;
-            this.apply_sensor6.Text = "Apply";
-            this.apply_sensor6.UseVisualStyleBackColor = true;
-            this.apply_sensor6.Click += new System.EventHandler(this.Apply_sensor6_Click);
+            this.richTextBox51.Location = new System.Drawing.Point(123, 2);
+            this.richTextBox51.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox51.Name = "richTextBox51";
+            this.richTextBox51.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox51.TabIndex = 1;
+            this.richTextBox51.Text = "";
+            // 
+            // button11
+            // 
+            this.button11.Location = new System.Drawing.Point(123, 167);
+            this.button11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(114, 31);
+            this.button11.TabIndex = 0;
+            this.button11.Text = "Apply";
+            this.button11.UseVisualStyleBackColor = true;
+            // 
+            // richTextBox52
+            // 
+            this.richTextBox52.Location = new System.Drawing.Point(123, 35);
+            this.richTextBox52.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox52.Name = "richTextBox52";
+            this.richTextBox52.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox52.TabIndex = 2;
+            this.richTextBox52.Text = "";
+            // 
+            // richTextBox53
+            // 
+            this.richTextBox53.Location = new System.Drawing.Point(123, 68);
+            this.richTextBox53.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox53.Name = "richTextBox53";
+            this.richTextBox53.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox53.TabIndex = 3;
+            this.richTextBox53.Text = "";
+            // 
+            // richTextBox54
+            // 
+            this.richTextBox54.Location = new System.Drawing.Point(123, 101);
+            this.richTextBox54.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox54.Name = "richTextBox54";
+            this.richTextBox54.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox54.TabIndex = 4;
+            this.richTextBox54.Text = "";
+            // 
+            // richTextBox55
+            // 
+            this.richTextBox55.Location = new System.Drawing.Point(123, 134);
+            this.richTextBox55.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox55.Name = "richTextBox55";
+            this.richTextBox55.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox55.TabIndex = 5;
+            this.richTextBox55.Text = "";
             // 
             // label51
             // 
@@ -2458,137 +1704,22 @@
             this.label55.TabIndex = 10;
             this.label55.Text = "Danger 3";
             // 
-            // nudY6
-            // 
-            this.nudY6.DecimalPlaces = 2;
-            this.nudY6.Location = new System.Drawing.Point(123, 3);
-            this.nudY6.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.nudY6.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.nudY6.Name = "nudY6";
-            this.nudY6.Size = new System.Drawing.Size(113, 22);
-            this.nudY6.TabIndex = 13;
-            this.nudY6.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            // 
-            // nudX6
-            // 
-            this.nudX6.DecimalPlaces = 2;
-            this.nudX6.Location = new System.Drawing.Point(123, 36);
-            this.nudX6.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.nudX6.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.nudX6.Name = "nudX6";
-            this.nudX6.Size = new System.Drawing.Size(113, 22);
-            this.nudX6.TabIndex = 14;
-            this.nudX6.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            // 
-            // dng61
-            // 
-            this.dng61.DecimalPlaces = 2;
-            this.dng61.Location = new System.Drawing.Point(123, 69);
-            this.dng61.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.dng61.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.dng61.Name = "dng61";
-            this.dng61.Size = new System.Drawing.Size(113, 22);
-            this.dng61.TabIndex = 15;
-            this.dng61.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            // 
-            // dng62
-            // 
-            this.dng62.DecimalPlaces = 2;
-            this.dng62.Location = new System.Drawing.Point(123, 102);
-            this.dng62.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.dng62.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.dng62.Name = "dng62";
-            this.dng62.Size = new System.Drawing.Size(113, 22);
-            this.dng62.TabIndex = 16;
-            this.dng62.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            // 
-            // dng63
-            // 
-            this.dng63.DecimalPlaces = 2;
-            this.dng63.Location = new System.Drawing.Point(123, 135);
-            this.dng63.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.dng63.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.dng63.Name = "dng63";
-            this.dng63.Size = new System.Drawing.Size(113, 22);
-            this.dng63.TabIndex = 17;
-            this.dng63.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            // 
             // tableLayoutPanel12
             // 
             this.tableLayoutPanel12.ColumnCount = 2;
             this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel12.Controls.Add(this.apply_sensor3, 1, 5);
+            this.tableLayoutPanel12.Controls.Add(this.richTextBox56, 1, 0);
+            this.tableLayoutPanel12.Controls.Add(this.button12, 1, 5);
+            this.tableLayoutPanel12.Controls.Add(this.richTextBox57, 1, 1);
+            this.tableLayoutPanel12.Controls.Add(this.richTextBox58, 1, 2);
+            this.tableLayoutPanel12.Controls.Add(this.richTextBox59, 1, 3);
+            this.tableLayoutPanel12.Controls.Add(this.richTextBox60, 1, 4);
             this.tableLayoutPanel12.Controls.Add(this.label56, 0, 0);
             this.tableLayoutPanel12.Controls.Add(this.label57, 0, 1);
             this.tableLayoutPanel12.Controls.Add(this.label58, 0, 2);
             this.tableLayoutPanel12.Controls.Add(this.label59, 0, 3);
             this.tableLayoutPanel12.Controls.Add(this.label60, 0, 4);
-            this.tableLayoutPanel12.Controls.Add(this.nudY3, 1, 0);
-            this.tableLayoutPanel12.Controls.Add(this.nudX3, 1, 1);
-            this.tableLayoutPanel12.Controls.Add(this.dng31, 1, 2);
-            this.tableLayoutPanel12.Controls.Add(this.dng32, 1, 3);
-            this.tableLayoutPanel12.Controls.Add(this.dng33, 1, 4);
             this.tableLayoutPanel12.Location = new System.Drawing.Point(27, 524);
             this.tableLayoutPanel12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tableLayoutPanel12.Name = "tableLayoutPanel12";
@@ -2602,16 +1733,60 @@
             this.tableLayoutPanel12.Size = new System.Drawing.Size(240, 204);
             this.tableLayoutPanel12.TabIndex = 8;
             // 
-            // apply_sensor3
+            // richTextBox56
             // 
-            this.apply_sensor3.Location = new System.Drawing.Point(123, 167);
-            this.apply_sensor3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.apply_sensor3.Name = "apply_sensor3";
-            this.apply_sensor3.Size = new System.Drawing.Size(114, 31);
-            this.apply_sensor3.TabIndex = 0;
-            this.apply_sensor3.Text = "Apply";
-            this.apply_sensor3.UseVisualStyleBackColor = true;
-            this.apply_sensor3.Click += new System.EventHandler(this.Apply_sensor3_Click);
+            this.richTextBox56.Location = new System.Drawing.Point(123, 2);
+            this.richTextBox56.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox56.Name = "richTextBox56";
+            this.richTextBox56.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox56.TabIndex = 1;
+            this.richTextBox56.Text = "";
+            // 
+            // button12
+            // 
+            this.button12.Location = new System.Drawing.Point(123, 167);
+            this.button12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(114, 31);
+            this.button12.TabIndex = 0;
+            this.button12.Text = "Apply";
+            this.button12.UseVisualStyleBackColor = true;
+            // 
+            // richTextBox57
+            // 
+            this.richTextBox57.Location = new System.Drawing.Point(123, 35);
+            this.richTextBox57.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox57.Name = "richTextBox57";
+            this.richTextBox57.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox57.TabIndex = 2;
+            this.richTextBox57.Text = "";
+            // 
+            // richTextBox58
+            // 
+            this.richTextBox58.Location = new System.Drawing.Point(123, 68);
+            this.richTextBox58.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox58.Name = "richTextBox58";
+            this.richTextBox58.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox58.TabIndex = 3;
+            this.richTextBox58.Text = "";
+            // 
+            // richTextBox59
+            // 
+            this.richTextBox59.Location = new System.Drawing.Point(123, 101);
+            this.richTextBox59.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox59.Name = "richTextBox59";
+            this.richTextBox59.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox59.TabIndex = 4;
+            this.richTextBox59.Text = "";
+            // 
+            // richTextBox60
+            // 
+            this.richTextBox60.Location = new System.Drawing.Point(123, 134);
+            this.richTextBox60.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox60.Name = "richTextBox60";
+            this.richTextBox60.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox60.TabIndex = 5;
+            this.richTextBox60.Text = "";
             // 
             // label56
             // 
@@ -2664,127 +1839,11 @@
             this.label60.TabIndex = 10;
             this.label60.Text = "Danger 3";
             // 
-            // nudY3
-            // 
-            this.nudY3.DecimalPlaces = 2;
-            this.nudY3.Location = new System.Drawing.Point(123, 3);
-            this.nudY3.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.nudY3.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.nudY3.Name = "nudY3";
-            this.nudY3.Size = new System.Drawing.Size(113, 22);
-            this.nudY3.TabIndex = 13;
-            this.nudY3.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            // 
-            // nudX3
-            // 
-            this.nudX3.DecimalPlaces = 2;
-            this.nudX3.Location = new System.Drawing.Point(123, 36);
-            this.nudX3.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.nudX3.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.nudX3.Name = "nudX3";
-            this.nudX3.Size = new System.Drawing.Size(113, 22);
-            this.nudX3.TabIndex = 14;
-            this.nudX3.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            // 
-            // dng31
-            // 
-            this.dng31.DecimalPlaces = 2;
-            this.dng31.Location = new System.Drawing.Point(123, 69);
-            this.dng31.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.dng31.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.dng31.Name = "dng31";
-            this.dng31.Size = new System.Drawing.Size(113, 22);
-            this.dng31.TabIndex = 15;
-            this.dng31.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            this.dng31.ValueChanged += new System.EventHandler(this.Dng2_3_ValueChanged);
-            // 
-            // dng32
-            // 
-            this.dng32.DecimalPlaces = 2;
-            this.dng32.Location = new System.Drawing.Point(123, 102);
-            this.dng32.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.dng32.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.dng32.Name = "dng32";
-            this.dng32.Size = new System.Drawing.Size(113, 22);
-            this.dng32.TabIndex = 16;
-            this.dng32.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            // 
-            // dng33
-            // 
-            this.dng33.DecimalPlaces = 2;
-            this.dng33.Location = new System.Drawing.Point(123, 135);
-            this.dng33.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.dng33.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.dng33.Name = "dng33";
-            this.dng33.Size = new System.Drawing.Size(113, 22);
-            this.dng33.TabIndex = 17;
-            this.dng33.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            // 
             // label61
             // 
             this.label61.AutoSize = true;
             this.label61.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label61.Location = new System.Drawing.Point(30, 6);
+            this.label61.Location = new System.Drawing.Point(24, 6);
             this.label61.Name = "label61";
             this.label61.Size = new System.Drawing.Size(49, 24);
             this.label61.TabIndex = 12;
@@ -2795,7 +1854,7 @@
             // 
             this.label62.AutoSize = true;
             this.label62.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label62.Location = new System.Drawing.Point(350, 6);
+            this.label62.Location = new System.Drawing.Point(303, 6);
             this.label62.Name = "label62";
             this.label62.Size = new System.Drawing.Size(54, 24);
             this.label62.TabIndex = 13;
@@ -2805,7 +1864,7 @@
             // 
             this.label63.AutoSize = true;
             this.label63.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label63.Location = new System.Drawing.Point(661, 6);
+            this.label63.Location = new System.Drawing.Point(613, 6);
             this.label63.Name = "label63";
             this.label63.Size = new System.Drawing.Size(50, 24);
             this.label63.TabIndex = 14;
@@ -2815,7 +1874,7 @@
             // 
             this.label64.AutoSize = true;
             this.label64.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label64.Location = new System.Drawing.Point(965, 6);
+            this.label64.Location = new System.Drawing.Point(917, 6);
             this.label64.Name = "label64";
             this.label64.Size = new System.Drawing.Size(87, 24);
             this.label64.TabIndex = 15;
@@ -2835,7 +1894,7 @@
             // 
             this.label66.AutoSize = true;
             this.label66.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label66.Location = new System.Drawing.Point(345, 251);
+            this.label66.Location = new System.Drawing.Point(303, 251);
             this.label66.Name = "label66";
             this.label66.Size = new System.Drawing.Size(74, 24);
             this.label66.TabIndex = 17;
@@ -2845,7 +1904,7 @@
             // 
             this.label67.AutoSize = true;
             this.label67.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label67.Location = new System.Drawing.Point(654, 251);
+            this.label67.Location = new System.Drawing.Point(613, 251);
             this.label67.Name = "label67";
             this.label67.Size = new System.Drawing.Size(71, 24);
             this.label67.TabIndex = 18;
@@ -2855,7 +1914,7 @@
             // 
             this.label68.AutoSize = true;
             this.label68.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label68.Location = new System.Drawing.Point(958, 251);
+            this.label68.Location = new System.Drawing.Point(917, 251);
             this.label68.Name = "label68";
             this.label68.Size = new System.Drawing.Size(73, 24);
             this.label68.TabIndex = 19;
@@ -2865,7 +1924,7 @@
             // 
             this.label69.AutoSize = true;
             this.label69.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label69.Location = new System.Drawing.Point(1256, 251);
+            this.label69.Location = new System.Drawing.Point(1216, 255);
             this.label69.Name = "label69";
             this.label69.Size = new System.Drawing.Size(99, 24);
             this.label69.TabIndex = 23;
@@ -2875,7 +1934,7 @@
             // 
             this.label70.AutoSize = true;
             this.label70.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label70.Location = new System.Drawing.Point(654, 495);
+            this.label70.Location = new System.Drawing.Point(613, 495);
             this.label70.Name = "label70";
             this.label70.Size = new System.Drawing.Size(99, 24);
             this.label70.TabIndex = 22;
@@ -2885,7 +1944,7 @@
             // 
             this.label71.AutoSize = true;
             this.label71.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label71.Location = new System.Drawing.Point(345, 495);
+            this.label71.Location = new System.Drawing.Point(303, 495);
             this.label71.Name = "label71";
             this.label71.Size = new System.Drawing.Size(75, 24);
             this.label71.TabIndex = 21;
@@ -2905,7 +1964,7 @@
             // 
             this.label73.AutoSize = true;
             this.label73.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label73.Location = new System.Drawing.Point(1259, 6);
+            this.label73.Location = new System.Drawing.Point(1217, 10);
             this.label73.Name = "label73";
             this.label73.Size = new System.Drawing.Size(51, 24);
             this.label73.TabIndex = 25;
@@ -2916,18 +1975,18 @@
             this.tableLayoutPanel13.ColumnCount = 2;
             this.tableLayoutPanel13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel13.Controls.Add(this.apply_sensor12, 1, 5);
+            this.tableLayoutPanel13.Controls.Add(this.richTextBox61, 1, 0);
+            this.tableLayoutPanel13.Controls.Add(this.button13, 1, 5);
+            this.tableLayoutPanel13.Controls.Add(this.richTextBox62, 1, 1);
+            this.tableLayoutPanel13.Controls.Add(this.richTextBox63, 1, 2);
+            this.tableLayoutPanel13.Controls.Add(this.richTextBox64, 1, 3);
+            this.tableLayoutPanel13.Controls.Add(this.richTextBox65, 1, 4);
             this.tableLayoutPanel13.Controls.Add(this.label74, 0, 0);
             this.tableLayoutPanel13.Controls.Add(this.label75, 0, 1);
             this.tableLayoutPanel13.Controls.Add(this.label76, 0, 2);
             this.tableLayoutPanel13.Controls.Add(this.label77, 0, 3);
             this.tableLayoutPanel13.Controls.Add(this.label78, 0, 4);
-            this.tableLayoutPanel13.Controls.Add(this.nudY12, 1, 0);
-            this.tableLayoutPanel13.Controls.Add(this.nudX12, 1, 1);
-            this.tableLayoutPanel13.Controls.Add(this.dng121, 1, 2);
-            this.tableLayoutPanel13.Controls.Add(this.dng122, 1, 3);
-            this.tableLayoutPanel13.Controls.Add(this.dng123, 1, 4);
-            this.tableLayoutPanel13.Location = new System.Drawing.Point(1259, 35);
+            this.tableLayoutPanel13.Location = new System.Drawing.Point(1220, 39);
             this.tableLayoutPanel13.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tableLayoutPanel13.Name = "tableLayoutPanel13";
             this.tableLayoutPanel13.RowCount = 6;
@@ -2940,16 +1999,60 @@
             this.tableLayoutPanel13.Size = new System.Drawing.Size(240, 204);
             this.tableLayoutPanel13.TabIndex = 24;
             // 
-            // apply_sensor12
+            // richTextBox61
             // 
-            this.apply_sensor12.Location = new System.Drawing.Point(123, 167);
-            this.apply_sensor12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.apply_sensor12.Name = "apply_sensor12";
-            this.apply_sensor12.Size = new System.Drawing.Size(114, 31);
-            this.apply_sensor12.TabIndex = 0;
-            this.apply_sensor12.Text = "Apply";
-            this.apply_sensor12.UseVisualStyleBackColor = true;
-            this.apply_sensor12.Click += new System.EventHandler(this.Apply_sensor12_Click);
+            this.richTextBox61.Location = new System.Drawing.Point(123, 2);
+            this.richTextBox61.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox61.Name = "richTextBox61";
+            this.richTextBox61.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox61.TabIndex = 1;
+            this.richTextBox61.Text = "";
+            // 
+            // button13
+            // 
+            this.button13.Location = new System.Drawing.Point(123, 167);
+            this.button13.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(114, 31);
+            this.button13.TabIndex = 0;
+            this.button13.Text = "Apply";
+            this.button13.UseVisualStyleBackColor = true;
+            // 
+            // richTextBox62
+            // 
+            this.richTextBox62.Location = new System.Drawing.Point(123, 35);
+            this.richTextBox62.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox62.Name = "richTextBox62";
+            this.richTextBox62.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox62.TabIndex = 2;
+            this.richTextBox62.Text = "";
+            // 
+            // richTextBox63
+            // 
+            this.richTextBox63.Location = new System.Drawing.Point(123, 68);
+            this.richTextBox63.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox63.Name = "richTextBox63";
+            this.richTextBox63.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox63.TabIndex = 3;
+            this.richTextBox63.Text = "";
+            // 
+            // richTextBox64
+            // 
+            this.richTextBox64.Location = new System.Drawing.Point(123, 101);
+            this.richTextBox64.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox64.Name = "richTextBox64";
+            this.richTextBox64.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox64.TabIndex = 4;
+            this.richTextBox64.Text = "";
+            // 
+            // richTextBox65
+            // 
+            this.richTextBox65.Location = new System.Drawing.Point(123, 134);
+            this.richTextBox65.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox65.Name = "richTextBox65";
+            this.richTextBox65.Size = new System.Drawing.Size(113, 27);
+            this.richTextBox65.TabIndex = 5;
+            this.richTextBox65.Text = "";
             // 
             // label74
             // 
@@ -3002,121 +2105,6 @@
             this.label78.TabIndex = 10;
             this.label78.Text = "Danger 3";
             // 
-            // nudY12
-            // 
-            this.nudY12.DecimalPlaces = 2;
-            this.nudY12.Location = new System.Drawing.Point(123, 3);
-            this.nudY12.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.nudY12.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.nudY12.Name = "nudY12";
-            this.nudY12.Size = new System.Drawing.Size(113, 22);
-            this.nudY12.TabIndex = 12;
-            this.nudY12.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            // 
-            // nudX12
-            // 
-            this.nudX12.DecimalPlaces = 2;
-            this.nudX12.Location = new System.Drawing.Point(123, 36);
-            this.nudX12.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.nudX12.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.nudX12.Name = "nudX12";
-            this.nudX12.Size = new System.Drawing.Size(113, 22);
-            this.nudX12.TabIndex = 13;
-            this.nudX12.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            // 
-            // dng121
-            // 
-            this.dng121.DecimalPlaces = 2;
-            this.dng121.Location = new System.Drawing.Point(123, 69);
-            this.dng121.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.dng121.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.dng121.Name = "dng121";
-            this.dng121.Size = new System.Drawing.Size(113, 22);
-            this.dng121.TabIndex = 14;
-            this.dng121.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            // 
-            // dng122
-            // 
-            this.dng122.DecimalPlaces = 2;
-            this.dng122.Location = new System.Drawing.Point(123, 102);
-            this.dng122.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.dng122.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.dng122.Name = "dng122";
-            this.dng122.Size = new System.Drawing.Size(113, 22);
-            this.dng122.TabIndex = 15;
-            this.dng122.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            // 
-            // dng123
-            // 
-            this.dng123.DecimalPlaces = 2;
-            this.dng123.Location = new System.Drawing.Point(123, 135);
-            this.dng123.Maximum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            0});
-            this.dng123.Minimum = new decimal(new int[] {
-            999999999,
-            0,
-            0,
-            -2147483648});
-            this.dng123.Name = "dng123";
-            this.dng123.Size = new System.Drawing.Size(113, 22);
-            this.dng123.TabIndex = 16;
-            this.dng123.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            // 
             // alert_messege
             // 
             this.alert_messege.Text = "notifyIcon1";
@@ -3146,7 +2134,7 @@
             this.Controls.Add(this.tableLayoutPanel10);
             this.Controls.Add(this.tableLayoutPanel11);
             this.Controls.Add(this.tableLayoutPanel12);
-            this.Controls.Add(this.table);
+            this.Controls.Add(this.tableLayoutPanel5);
             this.Controls.Add(this.tableLayoutPanel6);
             this.Controls.Add(this.tableLayoutPanel7);
             this.Controls.Add(this.tableLayoutPanel8);
@@ -3162,95 +2150,30 @@
             this.Load += new System.EventHandler(this.Form2_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nudY1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nudX1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng13)).EndInit();
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dng43)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng42)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng41)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nudX4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nudY4)).EndInit();
             this.tableLayoutPanel3.ResumeLayout(false);
             this.tableLayoutPanel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nudY7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nudX7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng71)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng72)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng73)).EndInit();
             this.tableLayoutPanel4.ResumeLayout(false);
             this.tableLayoutPanel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nudY10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nudX10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng101)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng102)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng103)).EndInit();
-            this.table.ResumeLayout(false);
-            this.table.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nudY11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nudX11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng111)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng112)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng113)).EndInit();
+            this.tableLayoutPanel5.ResumeLayout(false);
+            this.tableLayoutPanel5.PerformLayout();
             this.tableLayoutPanel6.ResumeLayout(false);
             this.tableLayoutPanel6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nudY8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nudX8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng81)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng82)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng83)).EndInit();
             this.tableLayoutPanel7.ResumeLayout(false);
             this.tableLayoutPanel7.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nudY5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nudX5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng51)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng52)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng53)).EndInit();
             this.tableLayoutPanel8.ResumeLayout(false);
             this.tableLayoutPanel8.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nudY2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nudX2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng21)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng22)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng23)).EndInit();
             this.tableLayoutPanel9.ResumeLayout(false);
             this.tableLayoutPanel9.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nudY13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nudX13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng131)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng132)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng133)).EndInit();
             this.tableLayoutPanel10.ResumeLayout(false);
             this.tableLayoutPanel10.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nudY9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nudX9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng91)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng92)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng93)).EndInit();
             this.tableLayoutPanel11.ResumeLayout(false);
             this.tableLayoutPanel11.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nudY6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nudX6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng61)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng62)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng63)).EndInit();
             this.tableLayoutPanel12.ResumeLayout(false);
             this.tableLayoutPanel12.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nudY3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nudX3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng31)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng32)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng33)).EndInit();
             this.tableLayoutPanel13.ResumeLayout(false);
             this.tableLayoutPanel13.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nudY12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nudX12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng121)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng122)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dng123)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -3260,83 +2183,143 @@
 
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Button apply_sensor1;
+        private System.Windows.Forms.RichTextBox sensor1_yaxis;
+        private System.Windows.Forms.RichTextBox sensor1_xaxis;
+        private System.Windows.Forms.RichTextBox danger1_sensor1;
+        private System.Windows.Forms.RichTextBox danger2_sensor1;
+        private System.Windows.Forms.RichTextBox danger3_sensor1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
-        private System.Windows.Forms.Button apply_sensor4;
+        private System.Windows.Forms.RichTextBox sensor2_yaxis;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.RichTextBox richTextBox7;
+        private System.Windows.Forms.RichTextBox richTextBox8;
+        private System.Windows.Forms.RichTextBox richTextBox9;
+        private System.Windows.Forms.RichTextBox richTextBox10;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
-        private System.Windows.Forms.Button apply_sensor7;
+        private System.Windows.Forms.RichTextBox richTextBox11;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.RichTextBox richTextBox12;
+        private System.Windows.Forms.RichTextBox richTextBox13;
+        private System.Windows.Forms.RichTextBox richTextBox14;
+        private System.Windows.Forms.RichTextBox richTextBox15;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
-        private System.Windows.Forms.Button apply_sensor10;
+        private System.Windows.Forms.RichTextBox richTextBox16;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.RichTextBox richTextBox17;
+        private System.Windows.Forms.RichTextBox richTextBox18;
+        private System.Windows.Forms.RichTextBox richTextBox19;
+        private System.Windows.Forms.RichTextBox richTextBox20;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.TableLayoutPanel table;
-        private System.Windows.Forms.Button apply_sensor11;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel5;
+        private System.Windows.Forms.RichTextBox richTextBox21;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.RichTextBox richTextBox22;
+        private System.Windows.Forms.RichTextBox richTextBox23;
+        private System.Windows.Forms.RichTextBox richTextBox24;
+        private System.Windows.Forms.RichTextBox richTextBox25;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel6;
-        private System.Windows.Forms.Button apply_sensor8;
+        private System.Windows.Forms.RichTextBox richTextBox26;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.RichTextBox richTextBox27;
+        private System.Windows.Forms.RichTextBox richTextBox28;
+        private System.Windows.Forms.RichTextBox richTextBox29;
+        private System.Windows.Forms.RichTextBox richTextBox30;
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.Label label29;
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel7;
-        private System.Windows.Forms.Button apply_sensor5;
+        private System.Windows.Forms.RichTextBox richTextBox31;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.RichTextBox richTextBox32;
+        private System.Windows.Forms.RichTextBox richTextBox33;
+        private System.Windows.Forms.RichTextBox richTextBox34;
+        private System.Windows.Forms.RichTextBox richTextBox35;
         private System.Windows.Forms.Label label31;
         private System.Windows.Forms.Label label32;
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.Label label34;
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel8;
-        private System.Windows.Forms.Button apply_sensor2;
+        private System.Windows.Forms.RichTextBox richTextBox36;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.RichTextBox richTextBox37;
+        private System.Windows.Forms.RichTextBox richTextBox38;
+        private System.Windows.Forms.RichTextBox richTextBox39;
+        private System.Windows.Forms.RichTextBox richTextBox40;
         private System.Windows.Forms.Label label36;
         private System.Windows.Forms.Label label37;
         private System.Windows.Forms.Label label38;
         private System.Windows.Forms.Label label39;
         private System.Windows.Forms.Label label40;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel9;
-        private System.Windows.Forms.Button apply_sensor13;
+        private System.Windows.Forms.RichTextBox richTextBox41;
+        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.RichTextBox richTextBox42;
+        private System.Windows.Forms.RichTextBox richTextBox43;
+        private System.Windows.Forms.RichTextBox richTextBox44;
+        private System.Windows.Forms.RichTextBox richTextBox45;
         private System.Windows.Forms.Label label41;
         private System.Windows.Forms.Label label42;
         private System.Windows.Forms.Label label43;
         private System.Windows.Forms.Label label44;
         private System.Windows.Forms.Label label45;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel10;
-        private System.Windows.Forms.Button apply_sensor9;
+        private System.Windows.Forms.RichTextBox richTextBox46;
+        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.RichTextBox richTextBox47;
+        private System.Windows.Forms.RichTextBox richTextBox48;
+        private System.Windows.Forms.RichTextBox richTextBox49;
+        private System.Windows.Forms.RichTextBox richTextBox50;
         private System.Windows.Forms.Label label46;
         private System.Windows.Forms.Label label47;
         private System.Windows.Forms.Label label48;
         private System.Windows.Forms.Label label49;
         private System.Windows.Forms.Label label50;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel11;
-        private System.Windows.Forms.Button apply_sensor6;
+        private System.Windows.Forms.RichTextBox richTextBox51;
+        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.RichTextBox richTextBox52;
+        private System.Windows.Forms.RichTextBox richTextBox53;
+        private System.Windows.Forms.RichTextBox richTextBox54;
+        private System.Windows.Forms.RichTextBox richTextBox55;
         private System.Windows.Forms.Label label51;
         private System.Windows.Forms.Label label52;
         private System.Windows.Forms.Label label53;
         private System.Windows.Forms.Label label54;
         private System.Windows.Forms.Label label55;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel12;
-        private System.Windows.Forms.Button apply_sensor3;
+        private System.Windows.Forms.RichTextBox richTextBox56;
+        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.RichTextBox richTextBox57;
+        private System.Windows.Forms.RichTextBox richTextBox58;
+        private System.Windows.Forms.RichTextBox richTextBox59;
+        private System.Windows.Forms.RichTextBox richTextBox60;
         private System.Windows.Forms.Label label56;
         private System.Windows.Forms.Label label57;
         private System.Windows.Forms.Label label58;
@@ -3356,78 +2339,17 @@
         private System.Windows.Forms.Label label72;
         private System.Windows.Forms.Label label73;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel13;
-        private System.Windows.Forms.Button apply_sensor12;
+        private System.Windows.Forms.RichTextBox richTextBox61;
+        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.RichTextBox richTextBox62;
+        private System.Windows.Forms.RichTextBox richTextBox63;
+        private System.Windows.Forms.RichTextBox richTextBox64;
+        private System.Windows.Forms.RichTextBox richTextBox65;
         private System.Windows.Forms.Label label74;
         private System.Windows.Forms.Label label75;
         private System.Windows.Forms.Label label76;
         private System.Windows.Forms.Label label77;
         private System.Windows.Forms.Label label78;
         private System.Windows.Forms.NotifyIcon alert_messege;
-        private System.Windows.Forms.NumericUpDown nudY1;
-        private System.Windows.Forms.NumericUpDown nudX1;
-        private System.Windows.Forms.NumericUpDown dng11;
-        private System.Windows.Forms.NumericUpDown dng12;
-        private System.Windows.Forms.NumericUpDown dng13;
-        private System.Windows.Forms.NumericUpDown dng43;
-        private System.Windows.Forms.NumericUpDown dng42;
-        private System.Windows.Forms.NumericUpDown dng41;
-        private System.Windows.Forms.NumericUpDown nudX4;
-        private System.Windows.Forms.NumericUpDown nudY4;
-        private System.Windows.Forms.NumericUpDown nudY7;
-        private System.Windows.Forms.NumericUpDown nudX7;
-        private System.Windows.Forms.NumericUpDown dng71;
-        private System.Windows.Forms.NumericUpDown dng72;
-        private System.Windows.Forms.NumericUpDown dng73;
-        private System.Windows.Forms.NumericUpDown nudY10;
-        private System.Windows.Forms.NumericUpDown nudX10;
-        private System.Windows.Forms.NumericUpDown dng101;
-        private System.Windows.Forms.NumericUpDown dng102;
-        private System.Windows.Forms.NumericUpDown dng103;
-        private System.Windows.Forms.NumericUpDown nudY11;
-        private System.Windows.Forms.NumericUpDown nudX11;
-        private System.Windows.Forms.NumericUpDown dng111;
-        private System.Windows.Forms.NumericUpDown dng112;
-        private System.Windows.Forms.NumericUpDown dng113;
-        private System.Windows.Forms.NumericUpDown nudY8;
-        private System.Windows.Forms.NumericUpDown nudX8;
-        private System.Windows.Forms.NumericUpDown dng81;
-        private System.Windows.Forms.NumericUpDown dng82;
-        private System.Windows.Forms.NumericUpDown dng83;
-        private System.Windows.Forms.NumericUpDown nudY5;
-        private System.Windows.Forms.NumericUpDown nudX5;
-        private System.Windows.Forms.NumericUpDown dng51;
-        private System.Windows.Forms.NumericUpDown dng52;
-        private System.Windows.Forms.NumericUpDown dng53;
-        private System.Windows.Forms.NumericUpDown nudY2;
-        private System.Windows.Forms.NumericUpDown nudX2;
-        private System.Windows.Forms.NumericUpDown dng21;
-        private System.Windows.Forms.NumericUpDown dng22;
-        private System.Windows.Forms.NumericUpDown dng23;
-        private System.Windows.Forms.NumericUpDown nudY13;
-        private System.Windows.Forms.NumericUpDown nudX13;
-        private System.Windows.Forms.NumericUpDown dng131;
-        private System.Windows.Forms.NumericUpDown dng132;
-        private System.Windows.Forms.NumericUpDown dng133;
-        private System.Windows.Forms.NumericUpDown nudY9;
-        private System.Windows.Forms.NumericUpDown nudX9;
-        private System.Windows.Forms.NumericUpDown dng91;
-        private System.Windows.Forms.NumericUpDown dng92;
-        private System.Windows.Forms.NumericUpDown dng93;
-        private System.Windows.Forms.NumericUpDown nudY6;
-        private System.Windows.Forms.NumericUpDown nudX6;
-        private System.Windows.Forms.NumericUpDown dng61;
-        private System.Windows.Forms.NumericUpDown dng62;
-        private System.Windows.Forms.NumericUpDown dng63;
-        private System.Windows.Forms.NumericUpDown nudY3;
-        private System.Windows.Forms.NumericUpDown nudX3;
-        private System.Windows.Forms.NumericUpDown dng31;
-        private System.Windows.Forms.NumericUpDown dng32;
-        private System.Windows.Forms.NumericUpDown dng33;
-        private System.Windows.Forms.NumericUpDown nudY12;
-        private System.Windows.Forms.NumericUpDown nudX12;
-        private System.Windows.Forms.NumericUpDown dng121;
-        private System.Windows.Forms.NumericUpDown dng122;
-        private System.Windows.Forms.NumericUpDown dng123;
-        private System.Windows.Forms.Button btnAxisFit;
     }
 }

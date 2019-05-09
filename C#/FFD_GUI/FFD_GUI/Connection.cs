@@ -5,383 +5,314 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
-using ZedGraph;
 using System.IO.Ports;
-using System.Threading;
+using System.Windows.Forms.DataVisualization.Charting;
+using System.Timers;
+using System.IO;
 
 namespace FFD_GUI
 {
     public partial class Connection : Form
     {
-        //input data receive from serialport
-        string sttheta;
-        string stpsi;
-        string stphi;
-        string staddtheta;
-        string staddphi;
-        private Main mainForm = null;
-        public Connection(Form callingForm)
+        public string data { get; set; }
+        public int[] data_sensors{ get; private set; }
+
+        int graph_scaler = 500;
+        //int send_repeat_counter = 0;
+        //bool send_data_flag = false;
+        bool plotter_flag = false;
+        System.IO.StreamWriter out_file;
+        System.IO.StreamReader in_file;
+
+        public Connection()
         {
             InitializeComponent();
-            mainForm = callingForm as Main;
+            configrations();
+        }
+        public void configrations()
+        {
+            portConfig.Items.AddRange(SerialPort.GetPortNames());
+            baudrateConfig.DataSource = new[] { "115200", "19200", "230400", "57600", "38400", "9600", "4800" };
+            parityConfig.DataSource = new[] { "None", "Odd", "Even", "Mark", "Space" };
+            databitsConfig.DataSource = new[] { "5", "6", "7", "8" };
+            stopbitsConfig.DataSource = new[] { "1", "2", "1.5" };
+            flowcontrolConfig.DataSource = new[] { "None", "RTS", "RTS/X", "Xon/Xoff" };
+            //portConfig.SelectedIndex = 0;
+            baudrateConfig.SelectedIndex = 5;
+            parityConfig.SelectedIndex = 0;
+            databitsConfig.SelectedIndex = 3;
+            stopbitsConfig.SelectedIndex = 0;
+            flowcontrolConfig.SelectedIndex = 0;
+            openFileDialog1.Filter = "Text|*.txt";
+
+            mySerial.DataReceived += rx_data_event;
+            backgroundWorker1.DoWork += new DoWorkEventHandler(update_rxtextarea_event);
+            tabControl1.Selected += new TabControlEventHandler(tabControl1_Selecting);
+
+            for (int i = 0; i < 5 && i < 5; i++)
+                graph.Series[i].Points.Add(0);
+
+        }
+        private void alert(string text)
+        {
+            alert_messege.Icon = Icon;
+            alert_messege.Visible = true;
+            alert_messege.ShowBalloonTip(5000, "Saxion Lab", text, ToolTipIcon.Error);
+        }
+        private void rx_data_event(object sender, System.IO.Ports.SerialDataReceivedEventArgs e)
+        {
+            if (mySerial.IsOpen)
+            {
+                try
+                {
+                    int dataLength = mySerial.BytesToRead;
+                    byte[] dataRecevied = new byte[dataLength];
+                    int nbytes = mySerial.Read(dataRecevied, 0, dataLength);
+                    if (nbytes == 0) return;
+                    if (datalogger_checkbox.Checked)
+                    {
+                        try
+                        { out_file.Write(data.Replace("\\n", Environment.NewLine)); }
+                        catch { alert("Can't write to " + datalogger_checkbox.Text + " file it might be not exist or it is opennd in another program"); return; }
+                    }
+
+
+                    this.BeginInvoke((Action)(() =>
+                    {
+                        data = System.Text.Encoding.Default.GetString(dataRecevied);
+
+                        if (!plotter_flag && !backgroundWorker1.IsBusy)
+                        {
+                            if (display_hex_radiobutton.Checked)
+                                data = BitConverter.ToString(dataRecevied);
+
+                            backgroundWorker1.RunWorkerAsync();
+                        }
+
+                        else if (plotter_flag)
+                        {
+                            double number;
+                            string[] variables = data.Split('\n')[0].Split(',');
+                            for (int i = 0; i < variables.Length && i < 5; i++)
+                            {
+                                if (double.TryParse(variables[i], out number))
+                                {
+                                    if (graph.Series[i].Points.Count > graph_scaler)
+                                        graph.Series[i].Points.RemoveAt(0);
+                                    graph.Series[i].Points.Add(number);
+                                }
+                            }
+                            graph.ResetAutoValues();
+                        }
+                    }));
+                }
+                catch { alert("Can't read form  " + mySerial.PortName + " port it might be opennd in another program"); }
+            }
+        }
+        void tabControl1_Selecting(object sender, TabControlEventArgs e)
+        {
+            if (tabControl1.SelectedIndex == 2)
+                plotter_flag = true;
+            else
+                plotter_flag = false;
         }
 
-        private void BtnConn_Click(object sender, EventArgs e)
+        /* Append text to rx_textarea*/
+        private void update_rxtextarea_event(object sender, DoWorkEventArgs e)
         {
-            try
+            this.BeginInvoke((Action)(() =>
             {
-                if (cbPorts.Text != "")
+                if (rx_textarea.Lines.Count() > 5000)
+                    rx_textarea.ResetText();
+                rx_textarea.AppendText("[RX   NEW DATA]> " + data);
+            }));
+        }
+        private bool Serial_port_config()
+        {
+            try { mySerial.PortName = portConfig.Text; }
+            catch { alert("There are no available ports"); return false; }
+            mySerial.BaudRate = (Int32.Parse(baudrateConfig.Text));
+            mySerial.StopBits = (StopBits)Enum.Parse(typeof(StopBits), (stopbitsConfig.SelectedIndex + 1).ToString(), true);
+            mySerial.Parity = (Parity)Enum.Parse(typeof(Parity), parityConfig.SelectedIndex.ToString(), true);
+            mySerial.DataBits = (Int32.Parse(databitsConfig.Text));
+            mySerial.Handshake = (Handshake)Enum.Parse(typeof(Handshake), flowcontrolConfig.SelectedIndex.ToString(), true);
+
+            return true;
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void set_Click(object sender, EventArgs e)
+        {
+           /* try
+            {
+                serialPort1.PortName = comboBox1.Text;
+                serialPort1.BaudRate = Convert.ToInt32(comboBox2.Text);
+                serialPort1.Open();
+                //while(true)
+                //{
+                    Console.WriteLine(serialPort1.ReadLine());
+                //}             
+            }
+
+            catch (Exception err)
+            {
+                MessageBox.Show(err.Message,"Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            // Main main = new Main();
+            // main.com_port = comboBox1.Text;
+            // main.baud_rate = comboBox2.Text;
+            //main.Dispose();*/
+
+        }
+        private void Button1_Click(object sender, EventArgs e)
+        {
+        }
+        private void Label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ComboBox4_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Label3_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Serial_options_group_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Datalogger_checkbox_CheckedChanged(object sender, EventArgs e)
+        {
+            if (datalogger_checkbox.Checked)
+            {
+                if (openFileDialog1.ShowDialog() == DialogResult.OK)
                 {
-                    if (cbBaud.Text != "")
-                    {
-                        serialPort1.PortName = cbPorts.Text;
-                        label1.Text = cbPorts.Text;
-                        label3.Text = cbBaud.Text;
-                        serialPort1.BaudRate = Convert.ToInt32(cbBaud.Text);
-                        serialPort1.Parity = Parity.None;
-                        serialPort1.StopBits = StopBits.One;
-                        serialPort1.DataBits = 8;
-                        serialPort1.Handshake = Handshake.None;
-                        serialPort1.RtsEnable = true;
-                        serialPort1.DataReceived += new SerialDataReceivedEventHandler(serialPort1_DataReceived);
-                        if (serialPort1.IsOpen) return;
-                        serialPort1.Open();
-                        btnConn.Enabled = false;
-                        btnDisConn.Enabled = true;
-                        //
-                        
-
-                        cbBaud.Enabled = false;
-                        cbPorts.Enabled = false;
-
-                    }
-                    else
-                        return;
+                    datalogger_checkbox.Text = openFileDialog1.FileName;
+                    datalogger_append_radiobutton.Enabled = true;
+                    datalogger_overwrite_radiobutton.Enabled = true;
+                    datalogger_append_radiobutton.Enabled = true;
+                    datalogger_overwrite_radiobutton.Enabled = true;
                 }
                 else
-                    return;
-            }
-            catch
-            {
-                return;
-            }
-        }
-        private void BtnDisConn_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                if (serialPort1.IsOpen == false) return;
-                serialPort1.Close();
-                btnConn.Enabled = true;
-                btnDisConn.Enabled = false;
-                //
-                cbBaud.Enabled = true;
-                cbPorts.Enabled = true;
-            }
-            catch
-            {
-                return;
-            }
-        }
-        private void serialPort1_DataReceived(object sender, SerialDataReceivedEventArgs e)
-        {
-            try
-            {
-                //split data receive from serialport
-                string[] arrList = serialPort1.ReadLine().Split(',');
-                this.mainForm.port_sensor1 = arrList[0];
-                this.mainForm.port_sensor2 = arrList[1];
-                this.mainForm.port_sensor3 = arrList[2];
-                this.mainForm.port_sensor4 = arrList[3];
-                this.mainForm.port_sensor5 = arrList[4];
-                this.mainForm.port_sensor6 = arrList[5];
-                this.mainForm.port_sensor7 = arrList[6];
-                this.mainForm.port_sensor8 = arrList[7];
-                this.mainForm.port_sensor9 = arrList[8];
-                this.mainForm.port_sensor10 = arrList[9];
-                this.mainForm.port_sensor11 = arrList[10];
-                this.mainForm.port_sensor12 = arrList[11];
-                this.mainForm.port_sensor13 = arrList[12];
-                stpsi = arrList[0];// Psi value.
-                sttheta = arrList[1];// Theta value.
-                stphi = arrList[2];// Phi value.
-                staddtheta = arrList[3];// Theta setpoint value.
-                staddphi = arrList[4];// Phi setpoint value.
-            }
-            catch
-            {
-                return;
-            }
-        }
-        int intlen = 0;
-        private void Timer1_Tick_1(object sender, EventArgs e)
-        {
-            if (btnConn.Enabled == false)
-            {
-                Draw(stpsi, sttheta, stphi, staddtheta, staddphi);
-                //display value on graph
-                // text color and value
-                lblpsi.ForeColor = Color.Blue;
-                lblpsi.Text = stpsi;
-
-                lbltheta.ForeColor = Color.Blue;
-                lbltheta.Text = sttheta;
-
-                lblphi.ForeColor = Color.Blue;
-                lblphi.Text = stphi;
-
-                lblstheta.ForeColor = Color.Red;
-                lblstheta.Text = staddtheta;
-
-                lblsphi.ForeColor = Color.Red;
-                lblsphi.Text = staddphi;
-            }
-            //auto detect COM port//
-            string[] ports = SerialPort.GetPortNames();
-            if (intlen != ports.Length)
-            {
-                intlen = ports.Length;
-                cbPorts.Items.Clear();
-                for (int j = 0; j < intlen; j++)
                 {
-                    cbPorts.Items.Add(ports[j]);
+                    datalogger_checkbox.Checked = false;
+                    datalogger_append_radiobutton.Enabled = false;
+                    datalogger_overwrite_radiobutton.Enabled = false;
+                    datalogger_append_radiobutton.Enabled = false;
+                    datalogger_overwrite_radiobutton.Enabled = false;
                 }
             }
-        }
-        //
-        int TickStart1;
-        int TickStart2;
-        int TickStart3;
-
-        private void Connection_Load(object sender, EventArgs e)
-        {
-            cbBaud.Enabled = true;
-            cbPorts.Enabled = true;
-            //Disable button control
-
-            //Load value//
-            cbBaud.Items.Add(9600);
-            cbBaud.Items.Add(14400);
-            cbBaud.Items.Add(19200);
-            cbBaud.Items.Add(38400);
-            cbBaud.Items.Add(57600);
-            cbBaud.Items.Add(74880);
-            cbBaud.Items.Add(115200);
-            cbBaud.Items.Add(230400);
-            cbBaud.Items.Add(256000);
-            cbBaud.Items.Add(460800);
-            cbBaud.Items.Add(921600);
-            //
-            btnDisConn.Enabled = false;
-
-            //Show contents of graph
-            //Name graph
-            //Value x,y axis..
-            GraphPane myPane1 = zedGraphControl1.GraphPane;
-            myPane1.Title.Text = "Psi Graph";
-            myPane1.XAxis.Title.Text = "Time, Seconds";
-            myPane1.YAxis.Title.Text = "Angle, Deg";
-
-            RollingPointPairList list1 = new RollingPointPairList(60000);
-            LineItem Curve1 = myPane1.AddCurve("Psi Value", list1, Color.Blue, SymbolType.None);
-
-            myPane1.XAxis.Scale.Min = 0;
-            myPane1.XAxis.Scale.Max = 10;
-            myPane1.YAxis.Scale.Min = -10;
-            myPane1.YAxis.Scale.Max = 10;
-
-            zedGraphControl1.AxisChange();
-            TickStart1 = Environment.TickCount;
-
-            /*Display the graph 2 of contents*/
-            //Psidot graph//
-            GraphPane myPane2 = zedGraphControl2.GraphPane;
-            myPane2.Title.Text = "Theta Graph";
-            myPane2.XAxis.Title.Text = "Time, Seconds";
-            myPane2.YAxis.Title.Text = "Angle, Deg";
-
-            RollingPointPairList list2 = new RollingPointPairList(60000);
-            LineItem Curve2 = myPane2.AddCurve("Theta Value", list2, Color.Blue, SymbolType.None);
-            //
-            RollingPointPairList list2_ = new RollingPointPairList(60000);
-            LineItem Curve2_ = myPane2.AddCurve("Setpoint", list2_, Color.Red, SymbolType.None);
-
-            myPane2.XAxis.Scale.Min = 0;
-            myPane2.XAxis.Scale.Max = 10;
-            myPane2.YAxis.Scale.Min = -540;
-            myPane2.YAxis.Scale.Max = 540;
-
-            zedGraphControl2.AxisChange();
-            TickStart2 = Environment.TickCount;
-
-            /*Display the graph 3 of contents*/
-            //Theta graph//
-            GraphPane myPane3 = zedGraphControl3.GraphPane;
-            myPane3.Title.Text = "Phi Graph";//Ten do thi
-            myPane3.XAxis.Title.Text = "Time, Seconds";//Noi dung truc X
-            myPane3.YAxis.Title.Text = "Angle, Deg";//Noi dung truc Y
-
-            RollingPointPairList list3 = new RollingPointPairList(60000);//So diem hien thi tren do thi
-            LineItem Curve3 = myPane3.AddCurve("Phi Vallue", list3, Color.Blue, SymbolType.None);//Chon mau cho net ve
-
-            RollingPointPairList list3_ = new RollingPointPairList(60000);//So diem hien thi tren do thi
-            LineItem Curve3_ = myPane3.AddCurve("Setpoint", list3_, Color.Red, SymbolType.None);//Chon mau cho net ve
-
-            myPane3.XAxis.Scale.Min = 0;//Gia tri nho nhat cua truc X
-            myPane3.XAxis.Scale.Max = 10;//Gia tri lon nhat cua truc X
-            myPane3.YAxis.Scale.Min = -120;//Gia tri nho nhat cua truc Y
-            myPane3.YAxis.Scale.Max = 120;//Gia tri lon nhat cua truc Y
-
-            zedGraphControl3.AxisChange();//Tu do Scroll do thi
-            TickStart3 = Environment.TickCount;
-        }
-
-        //Draw line in the zedgraph using string data    //
-        //receive from serialport convert to double value//
-        private void Draw(string inpsi, string intheta, string inphi, string inaddtheta, string inaddphi)
-        {
-            double _psi;
-            double _theta;
-            double _phi;
-            double _addtheta;
-            double _addphi;
-
-            double.TryParse(inpsi, out _psi);//Conver tring to double//
-            double.TryParse(intheta, out _theta);//Conver tring to double//
-            double.TryParse(inphi, out _phi);//Conver tring to double//
-            double.TryParse(inaddtheta, out _addtheta);
-            double.TryParse(inaddphi, out _addphi);
-
-            //Error color text
-            lblphierror.ForeColor = Color.Blue;
-            lblthetaerror.ForeColor = Color.Blue;
-            //Error value update...
-            lblthetaerror.Text = Math.Round((Math.Abs(_theta) - Math.Abs(_addtheta)), 2).ToString();
-            lblphierror.Text = Math.Round((Math.Abs(_phi) - Math.Abs(_addphi)), 2).ToString();
-
-            if (zedGraphControl1.GraphPane.CurveList.Count <= 0)
-                return;
-            if (zedGraphControl2.GraphPane.CurveList.Count <= 0)
-                return;
-            if (zedGraphControl3.GraphPane.CurveList.Count <= 0)
-                return;
-
-            LineItem curve1 = zedGraphControl1.GraphPane.CurveList[0] as LineItem;
-            LineItem curve2 = zedGraphControl2.GraphPane.CurveList[0] as LineItem;
-            LineItem curve3 = zedGraphControl3.GraphPane.CurveList[0] as LineItem;
-
-            LineItem curve2_ = zedGraphControl2.GraphPane.CurveList[1] as LineItem;// SetPoint Curve Theta
-            LineItem curve3_ = zedGraphControl3.GraphPane.CurveList[1] as LineItem;// SetPoint Curve Phi
-
-            if (curve1 == null)
-                return;
-            if (curve2 == null)
-                return;
-            if (curve3 == null)
-                return;
-            if (curve2_ == null)
-                return;
-            if (curve3_ == null)
-                return;
-
-            //
-            IPointListEdit list1 = curve1.Points as IPointListEdit;
-            IPointListEdit list2 = curve2.Points as IPointListEdit;
-            IPointListEdit list3 = curve3.Points as IPointListEdit;
-            //
-            IPointListEdit list2_ = curve2_.Points as IPointListEdit;
-            IPointListEdit list3_ = curve3_.Points as IPointListEdit;
-
-            //
-            if (list1 == null)
-                return;
-            if (list2 == null)
-                return;
-            if (list3 == null)
-                return;
-            //
-            if (list2_ == null)
-                return;
-            if (list3_ == null)
-                return;
-
-            //
-            double time1 = (Environment.TickCount - TickStart1) / 1000.0;
-            double time2 = (Environment.TickCount - TickStart2) / 1000.0;
-            double time3 = (Environment.TickCount - TickStart3) / 1000.0;
-
-            //
-            list1.Add(time1, _psi);
-            list2.Add(time2, _theta);
-            list3.Add(time3, _phi);
-            //
-            list2_.Add(time2, (_addtheta));
-            list3_.Add(time3, (_addphi));
-
-            //
-            Scale xScale1 = zedGraphControl1.GraphPane.XAxis.Scale;
-            Scale xScale2 = zedGraphControl2.GraphPane.XAxis.Scale;
-            Scale xScale3 = zedGraphControl3.GraphPane.XAxis.Scale;
-
-            //
-            Scale yScale1 = zedGraphControl1.GraphPane.YAxis.Scale;
-            Scale yScale2 = zedGraphControl2.GraphPane.YAxis.Scale;
-            Scale yScale3 = zedGraphControl3.GraphPane.YAxis.Scale;
-
-            //
-            if (time1 > xScale1.Max - xScale1.MajorStep)
+            else
             {
-                xScale1.Max = time1 + xScale1.MajorStep;
-                xScale1.Min = xScale1.Max - 10;//Auto scale x axis in limit time
+                datalogger_append_radiobutton.Enabled = false;
+                datalogger_overwrite_radiobutton.Enabled = false;
+                datalogger_checkbox.Text = "Enable Data logger";
             }
-            if (time2 > xScale2.Max - xScale2.MajorStep)
+        }
+        private void UserControl_state(bool value)
+        {
+            datalogger_options_panel.Enabled = !value;
+            write_options_group.Enabled = value;
+
+            if (value)
             {
-                xScale2.Max = time2 + xScale2.MajorStep;
-                xScale2.Min = xScale2.Max - 30;
+                connect.Text = "Disconnected";
+                toolStripStatusLabel1.Text = "Connected port: " + mySerial.PortName + " @ " + mySerial.BaudRate + " bps";
             }
-            if (time3 > xScale3.Max - xScale3.MajorStep)
+            else
             {
-                xScale3.Max = time3 + xScale3.MajorStep;
-                xScale3.Min = xScale3.Max - 30;
+                connect.Text = "Connected";
+                toolStripStatusLabel1.Text = "No Connection";
             }
-            //
-            zedGraphControl1.AxisChange();
-            zedGraphControl2.AxisChange();
-            zedGraphControl3.AxisChange();
-            //
-            zedGraphControl1.Invalidate();
-            zedGraphControl2.Invalidate();
-            zedGraphControl3.Invalidate();
+        }
+        private void Connect_Click(object sender, EventArgs e)
+        {
+            /*Connect*/
+            if (!mySerial.IsOpen)
+            {
+                if (Serial_port_config())
+                {
+                    try
+                    {
+                        mySerial.Open();
+                    }
+                    catch
+                    {
+                        alert("Can't open " + mySerial.PortName + " port, it might be used in another program");
+                        return;
+                    }
+
+                    if (datalogger_checkbox.Checked)
+                    {
+                        try
+                        {
+                            out_file = new System.IO.StreamWriter(datalogger_checkbox.Text, datalogger_append_radiobutton.Checked);
+                        }
+                        catch
+                        {
+                            alert("Can't open " + datalogger_checkbox.Text + " file, it might be used in another program");
+                            return;
+                        }
+                    }
+
+                    UserControl_state(true);
+                }
+            }
+
+            /*Disconnect*/
+            else if (mySerial.IsOpen)
+            {
+                try
+                {
+                    mySerial.Close();
+                    mySerial.DiscardInBuffer();
+                    mySerial.DiscardOutBuffer();
+                }
+                catch {/*ignore*/}
+
+                if (datalogger_checkbox.Checked)
+                    try { out_file.Dispose(); }
+                    catch {/*ignore*/ }
+
+                try { in_file.Dispose(); }
+                catch {/*ignore*/ }
+
+                UserControl_state(false);
+            }
         }
 
-        private void CbPorts_SelectedIndexChanged(object sender, EventArgs e)
+        private void Rx_textarea_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void BtnExit_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void GroupBox3_Enter(object sender, EventArgs e)
-        {
-
-        }
- 
-
-        private void Lbltheta_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void GroupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void ZedGraphControl1_Load(object sender, EventArgs e)
+        private void Alert_messege_MouseDoubleClick(object sender, MouseEventArgs e)
         {
 
         }
