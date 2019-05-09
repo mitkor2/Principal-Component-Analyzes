@@ -55,6 +55,7 @@
             this.zedGraphControl3 = new ZedGraph.ZedGraphControl();
             this.zedGraphControl1 = new ZedGraph.ZedGraphControl();
             this.zedGraphControl2 = new ZedGraph.ZedGraphControl();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.menuStrip2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.cpuChart)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
@@ -309,5 +310,6 @@
         private ZedGraph.ZedGraphControl zedGraphControl3;
         private ZedGraph.ZedGraphControl zedGraphControl1;
         private ZedGraph.ZedGraphControl zedGraphControl2;
+        private System.Windows.Forms.Timer timer1;
     }
 }

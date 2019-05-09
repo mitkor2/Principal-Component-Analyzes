@@ -124,6 +124,7 @@ namespace FFD_GUI
         public Main()
         {
             InitializeComponent();
+            Control.CheckForIllegalCrossThreadCalls = false;
         }
 
         #region update the data, enable timer for next
@@ -132,15 +133,6 @@ namespace FFD_GUI
             //TODO: here you will get data fromt the USART
             //example below
             //your varaible = readBuffer; //shows value
-        }
-        #endregion
-
-        #region read databuffer received
-        private void SerialPort1_DataReceived(System.Object sender, System.IO.Ports.SerialDataReceivedEventArgs e)
-        {
-            readBuffer = serialPort1.ReadLine();          //read the received buffer into readbuffer
-            Invoke(new EventHandler(DoUpdate)); // invoke new event to update the textbox
-
         }
         #endregion
         
@@ -176,18 +168,9 @@ namespace FFD_GUI
 
         private void Main_Load(object sender, EventArgs e)
         {
-
+            timer1.Start();
         }
 
-        private void Chart1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Chart5_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void GroupBox1_Enter(object sender, EventArgs e)
         {
